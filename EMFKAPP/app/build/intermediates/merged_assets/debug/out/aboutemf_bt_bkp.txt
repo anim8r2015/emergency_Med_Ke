@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<!--[if !IE]>
+<html class="no-js non-ie" lang="en-GB"
+	itemscope 
+	itemtype="http://schema.org/Article" 
+	prefix="og: http://ogp.me/ns#" > <![endif]-->
+<!--[if IE 7 ]>
+<html class="no-js ie7" lang="en-GB"
+	itemscope 
+	itemtype="http://schema.org/Article" 
+	prefix="og: http://ogp.me/ns#" > <![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8" lang="en-GB"
+	itemscope 
+	itemtype="http://schema.org/Article" 
+	prefix="og: http://ogp.me/ns#" > <![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9" lang="en-GB"
+	itemscope 
+	itemtype="http://schema.org/Article" 
+	prefix="og: http://ogp.me/ns#" > <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" itemscope="" itemtype="http://schema.org/Article" prefix="og: http://ogp.me/ns#" style="" lang="en-GB"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<title>About | Emergency Medicine Kenya Foundation</title>
+<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="_G-GpHz7SjAklV43KZJbBVen3j5fDy3NvfOPmNZpmi4">
+
+		<script type="text/javascript" async="" src="aboutemf_bt2_files/linkid.js"></script><script type="text/javascript" async="" src="aboutemf_bt2_files/ec.js"></script><script async="" src="aboutemf_bt2_files/analytics.js"></script><script type="text/javascript">
+		var ajaxurl = 'http://www.emergencymedicinekenya.org/wp-admin/admin-ajax.php';
+		</script>
+		
+<!-- All in One SEO Pack 2.3.11.1 by Michael Torbert of Semper Fi Web Design[991,1047] -->
+<link rel="author" href="https://plus.google.com/+EmergencyMedicineKenya">
+<meta name="description" content="Emergency Medicine Kenya Foundation (EMKF) is a non-profit organisation dedicated to the development of emergency care in Kenya through education and research.">
+
+<meta name="keywords" content="emergency medicine,kenya">
+
+<link rel="canonical" href="http://www.emergencymedicinekenya.org/about/">
+<meta property="og:title" content="About | Emergency Medicine Kenya Foundation">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://www.emergencymedicinekenya.org/about/">
+<meta property="og:image" content="http://www.emergencymedicinekenya.org/wp-content/uploads/2016/09/App-Logo.png">
+<meta property="fb:admins" content="951083438286138">
+<meta property="og:description" content="Emergency Medicine Kenya Foundation (EMKF) is a non-profit organisation dedicated to the development of emergency care in Kenya through education and research.">
+<meta property="article:tag" content="emergency medicine">
+<meta property="article:tag" content="kenya">
+<meta property="article:publisher" content="https://www.facebook.com/emergencymedkenya">
+<meta property="article:published_time" content="2015-03-15T18:23:27Z">
+<meta property="article:modified_time" content="2016-12-09T09:31:08Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@emergencymedke">
+<meta name="twitter:domain" content="emergencymedicinekenya.org">
+<meta name="twitter:title" content="About | Emergency Medicine Kenya Foundation">
+<meta name="twitter:description" content="Emergency Medicine Kenya Foundation (EMKF) is a non-profit organisation dedicated to the development of emergency care in Kenya through education and research.">
+<meta name="twitter:image" content="http://www.emergencymedicinekenya.org/wp-content/uploads/2016/09/App-Logo.png">
+<meta itemprop="image" content="http://www.emergencymedicinekenya.org/wp-content/uploads/2016/09/App-Logo.png">
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-85212974-1', { 'cookieDomain': 'www.emergencymedicinekenya.org','allowLinker': true } );
+			ga('require', 'ec');
+			ga('require', 'linker');
+			ga('linker:autoLink', ['emergencymedicinekenya.org'] );
+			ga('require', 'linkid', 'linkid.js');
+			ga('send', 'pageview');
+			</script>
+					<script type="text/javascript">
+						function recordOutboundLink(link, category, action) {
+														ga('send', 'event', category, action);
+														if (link.target == '_blank') return true;
+							setTimeout('document.location = "' + link.href + '"', 100);
+							return false;
+						}
+						/* use regular Javascript for this */
+						function getAttr(ele, attr) {
+							var result = (ele.getAttribute && ele.getAttribute(attr)) || null;
+							if (!result) {
+								var attrs = ele.attributes;
+								var length = attrs.length;
+								for (var i = 0; i < length; i++)
+									if (attr[i].nodeName === attr) result = attr[i].nodeValue;
+							}
+							return result;
+						}
+
+						function aiosp_addLoadEvent(func) {
+							var oldonload = window.onload;
+							if (typeof window.onload != 'function') {
+								window.onload = func;
+							} else {
+								window.onload = function () {
+									if (oldonload) {
+										oldonload();
+									}
+									func();
+								}
+							}
+						}
+
+						function aiosp_addEvent(element, evnt, funct) {
+							if (element.attachEvent)
+								return element.attachEvent('on' + evnt, funct);
+							else
+								return element.addEventListener(evnt, funct, false);
+						}
+
+						aiosp_addLoadEvent(function () {
+							var links = document.getElementsByTagName('a');
+							for (var x = 0; x < links.length; x++) {
+								if (typeof links[x] == 'undefined') continue;
+								aiosp_addEvent(links[x], 'onclick', function () {
+									var mydomain = new RegExp(document.domain, 'i');
+									href = getAttr(this, 'href');
+									if (href && href.toLowerCase().indexOf('http') === 0 && !mydomain.test(href)) {
+										recordOutboundLink(this, 'Outbound Links', href);
+									}
+								});
+							}
+						});
+					</script>
+					<!-- /all in one seo pack -->
+<link rel="dns-prefetch" href="http://s0.wp.com/">
+<link rel="dns-prefetch" href="http://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="http://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="Emergency Medicine Kenya Foundation » Feed" href="http://www.emergencymedicinekenya.org/feed/">
+<link rel="alternate" type="application/rss+xml" title="Emergency Medicine Kenya Foundation » Comments Feed" href="http://www.emergencymedicinekenya.org/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Emergency Medicine Kenya Foundation » About Comments Feed" href="http://www.emergencymedicinekenya.org/about/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.emergencymedicinekenya.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="aboutemf_bt2_files/wp-emoji-release.js" type="text/javascript" defer="defer"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="xmascount-styles-css" href="aboutemf_bt2_files/cw_xmascount-styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="bb-taps-editor-style-shared-css" href="aboutemf_bt2_files/editor-style-shared.htm" type="text/css" media="all">
+<link rel="stylesheet" id="sparkling-bootstrap-css" href="aboutemf_bt2_files/bootstrap.css" type="text/css" media="all">
+<link rel="stylesheet" id="sparkling-icons-css" href="aboutemf_bt2_files/font-awesome.css" type="text/css" media="all">
+<link rel="stylesheet" id="sparkling-fonts-css" href="aboutemf_bt2_files/css.css" type="text/css" media="all">
+<link rel="stylesheet" id="sparkling-style-css" href="aboutemf_bt2_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack_css-css" href="aboutemf_bt2_files/jetpack.css" type="text/css" media="all">
+<script type="text/javascript" src="aboutemf_bt2_files/jquery.js"></script>
+<script type="text/javascript" src="aboutemf_bt2_files/jquery-migrate.js"></script>
+<script type="text/javascript" src="aboutemf_bt2_files/scriptfile.js"></script>
+<script type="text/javascript" src="aboutemf_bt2_files/modernizr.js"></script>
+<script type="text/javascript" src="aboutemf_bt2_files/bootstrap.js"></script>
+<script type="text/javascript" src="aboutemf_bt2_files/functions.js"></script>
+<link rel="https://api.w.org/" href="http://www.emergencymedicinekenya.org/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.emergencymedicinekenya.org/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.emergencymedicinekenya.org/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.7">
+<link rel="shortlink" href="http://wp.me/P5Wg7Y-2">
+<link rel="alternate" type="application/json+oembed" href="http://www.emergencymedicinekenya.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.emergencymedicinekenya.org%2Fabout%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://www.emergencymedicinekenya.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.emergencymedicinekenya.org%2Fabout%2F&amp;format=xml">
+
+<link rel="dns-prefetch" href="http://v0.wordpress.com/">
+<link rel="dns-prefetch" href="http://i0.wp.com/">
+<link rel="dns-prefetch" href="http://i1.wp.com/">
+<link rel="dns-prefetch" href="http://i2.wp.com/">
+<style type="text/css">img#wpstats{display:none}</style><style type="text/css">.navbar.navbar-default, .navbar-default .navbar-nav .open .dropdown-menu > li > a {background-color: #ffffff;}.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: #a3a3a3;}.entry-content {font-family: Open Sans; font-size:14px; font-weight: normal; color:#6B6B6B;}#content { margin-top: 44px; } .navbar {box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.298), rgba(0, 0, 0, 0.094) 0px 2px 20px inset, 0px -1px 7px rgba(0, 0, 0, 0.102); } @media(max-width:767px) { #content { margin-top: 95px; } } #secondary .widget h3 { margin-bottom:10px; } #secondary .widget { margin-bottom: 25px; } .blog-item-wrap { margin-bottom: 25px; } .flex-caption { display: none; } .post-inner-content { padding: 15px 50px } .entry-title { margin-bottom: 15px; } #soliloquy-container-55 { margin:0 auto; } .social-icons { display:none; } #footer-area { background-color: #1F1F1F; color: #1F1F1F; } #colophon { border-top: 1px solid #1F1F1F; } /*****SUBNAV*****/ #subnav { margin:50px 0 20px 0; max-width:1050px; display:none; } .subnav ul { margin: 0; padding:0; list-type:none; float:right; } .subnav li { float:left; margin:0; padding:5px 10px; list-style-type: none; display: block; } /********Mobile Header Search *********/ .msearch { display:none;} @media (max-width: 767px) { .msearch { display:block; padding:0 0 10px 0; } } .nav.navbar-nav { float: right; margin:30px 0 0; } .navbar-default .navbar-nav > li > a { color: #F5F7FA; line-height: 10px; text-transform: uppercase; font-size: 14px; /* min-height: 100px;*/ } .navbar-default .navbar-nav > li > a { color: #A3A3A3; font-size: 14px; line-height: 10px; text-transform: uppercase; }</style><link rel="pingback" href="http://www.emergencymedicinekenya.org/xmlrpc.php">	<style type="text/css">
+			.site-title,
+		.site-description {
+			position: absolute;
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		</style>
+	<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>	
+
+<div class="post-inner-content">
+<article id="post-2" class="post-2 page type-page status-publish hentry">
+	<header class="entry-header page-header">
+		<h1 class="entry-title">About</h1>
+	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><a href="https://i0.wp.com/www.emergencymedicinekenya.org/wp-content/uploads/2015/03/emk_abt_head.png" target="_blank"><img class="aligncenter wp-image-923 size-full" src="aboutemf_bt2_files/emk_abt_head.png" alt="emk_abt_head" srcset="https://i1.wp.com/www.emergencymedicinekenya.org/wp-content/uploads/2015/03/emk_abt_head.png?w=556 556w, https://i2.wp.com/www.emergencymedicinekenya.org/wp-content/uploads/2015/03/emk_abt_head.png?resize=300%2C53 300w" sizes="(max-width: 556px) 100vw, 556px" width="556" height="98"></a></p>
+<p><strong>Emergency Medicine Kenya Foundation (EMKF) is a non-profit 
+organisation founded in January 2015 dedicated to the development of 
+emergency care in Kenya (and other resource-limited settings) through 
+education and research.</strong></p>
+<p>It&nbsp;is part of the Free Open Access to Medical Education (FOAMed)
+ movement which is &nbsp;“a globally accessible crowd-sourced 
+educational adjunct providing inline (contextual) and offline 
+(asynchronous) content to augment traditional educational principles. 
+FOAM is medical education for anyone, anywhere, anytime.”</p>
+<p><strong>OUR VALUES</strong></p>
+<ul>
+<li>Helping identify evidence-based ways to save lives in medical emergencies in Kenya (and other resource-limited settings)</li>
+<li>Promoting resource appropriate clinical innovations that improve 
+efficacy and contribute to economic benefits in delivering emergency 
+health care in Kenya</li>
+<li>Improving patient experience and outcome across emergency care systems in Kenya (and other resource-limited settings)</li>
+<li>Developing practical research, education and promotion that raises 
+public awareness of Emergency Medicine and fosters advancements in 
+emergency care in Kenya (and other resource-limited settings)</li>
+<li>Supporting local and international researchers identify and undertake appropriate and relevant emergency care research in Kenya</li>
+</ul>
+<p><strong>OUR VISION</strong> is to develop career emergency care 
+providers in Kenya and promote local research that improves the outcomes
+ for emergency care patients in Kenya (and other resource-limited 
+settings).</p>
+<p><strong>OUR MISSION</strong> is to achieve this through education, 
+research, promotions, mentoring and building capacity for emergency care
+ development in Kenya.</p>
+<h3><strong>The Team</strong></h3>
+<p style="text-align: left;"><strong><a href="https://ke.linkedin.com/in/benjamin-w-wachira-630894b" target="_blank"><img class="aligncenter wp-image-902 size-full" src="aboutemf_bt2_files/benja-e1473693775746.jpg" alt="benja" width="150" height="216"></a></strong></p>
+<p style="text-align: left;"><strong>Benjamin W. Wachira</strong> is an 
+Assistant Professor of Emergency Medicine passionate about developing 
+and promoting evidence-based emergency medical care in Kenya.</p>
+<p style="text-align: left;"><strong><a href="https://ke.linkedin.com/in/benjamin-w-wachira-630894b" target="_blank"><img class="aligncenter wp-image-904 size-full" src="aboutemf_bt2_files/linked_in_logo-e1429022984648_002.png" alt="linked_in_logo" width="100" height="28"></a></strong></p>
+<hr>
+<p style="text-align: left;"><strong><a href="https://ke.linkedin.com/in/jeremiahnjenga" target="_blank"><img class="aligncenter wp-image-2688 size-full" src="aboutemf_bt2_files/jeremyPASS-PORT-e1473693831935.jpg" width="150" height="196"></a></strong></p>
+<p style="text-align: left;"><strong>Jeremiah Gitau Njenga</strong> 
+works a flight doctor and holds a Diploma in Primary Emergency Care with
+ a keen interest&nbsp;in the clinical practice of emergency&nbsp;care in
+ Kenya</p>
+<p style="text-align: center;"><strong><a href="https://ke.linkedin.com/in/jeremiahnjenga" target="_blank"><img class="aligncenter wp-image-904 size-full" src="aboutemf_bt2_files/linked_in_logo-e1429022984648_002.png" alt="linked_in_logo" width="100" height="28"></a></strong></p>
+<hr>
+<p style="text-align: left;"><strong><a href="https://ke.linkedin.com/in/lydia-ogunde-1579a738" target="_blank"><img class="aligncenter wp-image-2707 size-full" src="aboutemf_bt2_files/photo-e1473693887413.jpg" alt="photo" width="150" height="180"></a></strong></p>
+<p style="text-align: left;"><strong>Lydia Ogunde</strong> has worked in
+ the Emergency Department for more than 8 years and is keen 
+on&nbsp;research,&nbsp;global health and&nbsp;improving access to 
+emergency&nbsp;care in resource-limited settings.</p>
+<p style="text-align: center;"><a href="https://ke.linkedin.com/in/lydia-ogunde-1579a738" target="_blank"><img class="aligncenter wp-image-904 size-full" src="aboutemf_bt2_files/linked_in_logo-e1429022984648.png" alt="linked_in_logo" width="100" height="28"></a></p>
+<hr>
+<p><a href="https://ke.linkedin.com/in/cecilia-njoga-612b3335" target="_blank"><img class="aligncenter wp-image-5968" src="aboutemf_bt2_files/Cecilia-Njoga.jpg" alt="cecilia-njoga" srcset="https://i0.wp.com/www.emergencymedicinekenya.org/wp-content/uploads/2015/03/Cecilia-Njoga.jpg?w=314 314w, https://i2.wp.com/www.emergencymedicinekenya.org/wp-content/uploads/2015/03/Cecilia-Njoga.jpg?resize=217%2C300 217w" sizes="(max-width: 163px) 100vw, 163px" width="163" height="225"></a></p>
+<p><strong>Cecilia Njoga </strong>is a Clinical Supervisor in the 
+Emergency Department at The Aga Khan University Hospital, Nairobi. She 
+is passionate about emergency care and is currently pursuing her Diploma
+ in Primary Emergency Care.&nbsp; She has a keen interest in improving 
+access to quality emergency care to all as evidenced by her current 
+involvement in the training of health care providers in evidence-based 
+emergency care.</p>
+<p><a href="https://ke.linkedin.com/in/cecilia-njoga-612b3335" target="_blank"><img class="aligncenter wp-image-904 size-full" src="aboutemf_bt2_files/linked_in_logo-e1429022984648_002.png" alt="linked_in_logo" width="100" height="28"></a></p>
+<hr>
+<header class="entry-header page-header">
+<h2><strong>Contact Us</strong></h2>
+</header>
+<div class="entry-content">
+<p><strong>Post: </strong>P.O. Box 1023, City Square 00200, Nairobi, Kenya.</p>
+<p><strong>Phone: </strong>+254 20 2100054 / +254 710 633 855 (mobile)</p>
+<p><strong>Email: </strong><a href="mailto:emkf@emergencymedicinekenya.org">emkf@emergencymedicinekenya.org</a></p>
+<p><strong>Or message us below.&nbsp;</strong></p>
+</div>
+<div id="contact-form-2">
+<form action="http://www.emergencymedicinekenya.org/about/#contact-form-2" method="post" class="contact-form commentsblock">
+
+<div>
+		<label for="g2-name" class="grunion-field-label name">Name<span>(required)</span></label>
+		<input name="g2-name" id="g2-name" class="name" required="" aria-required="true" type="text">
+	</div>
+
+<div>
+		<label for="g2-email" class="grunion-field-label email">Email<span>(required)</span></label>
+		<input name="g2-email" id="g2-email" class="email" required="" aria-required="true" type="email">
+	</div>
+
+<div>
+		<label for="contact-form-comment-g2-message" class="grunion-field-label textarea">Message<span>(required)</span></label>
+		<textarea name="g2-message" id="contact-form-comment-g2-message" rows="20" class="textarea" required="" aria-required="true"></textarea>
+	</div>
+	<p class="contact-submit">
+		<input value="Submit »" class="pushbutton-wide btn btn-default" type="submit">
+		<input name="contact-form-id" value="2" type="hidden">
+		<input name="action" value="grunion-contact-form" type="hidden">
+	</p>
+</form>
+</div>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<h3><a href="http://www.who.int/emergencycare/systems/en/" target="_blank">WHO on Emergency Care</a></h3>
+<h3></h3>
+<h3><a href="https://www.dropbox.com/s/w2kovyxf74tlbzi/EM%20Training%20at%20The%20Aga%20Khan%20University-Nairobi.pdf" target="_blank">Diploma in Emergency Medicine</a></h3>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<div>
+<p><a href="http://www.afem.info/" target="_blank"><img class="alignleft wp-image-5952 size-medium" src="aboutemf_bt2_files/AFEM.jpg" alt="afem" srcset="https://i2.wp.com/www.emergencymedicinekenya.org/wp-content/uploads/2015/03/AFEM.jpg?resize=300%2C212 300w, https://i0.wp.com/www.emergencymedicinekenya.org/wp-content/uploads/2015/03/AFEM.jpg?resize=768%2C543 768w, https://i1.wp.com/www.emergencymedicinekenya.org/wp-content/uploads/2015/03/AFEM.jpg?resize=1024%2C724 1024w, https://i0.wp.com/www.emergencymedicinekenya.org/wp-content/uploads/2015/03/AFEM.jpg?w=1296 1296w, https://i1.wp.com/www.emergencymedicinekenya.org/wp-content/uploads/2015/03/AFEM.jpg?w=1944 1944w" sizes="(max-width: 300px) 100vw, 300px" width="300" height="212"></a>The
+ African Federation for Emergency Medicine (AFEM), founded in November 
+2009, represents a broad coalition of national societies, organisations,
+ and individuals from over 40 countries.&nbsp; AFEM’s membership is 
+comprised of individuals with an interest in African emergency care, 
+including non-clinicians, medics, nurses, and physicians. AFEM is all 
+about promoting and expanding Emergency Care, from many angles, across 
+the entire African continent. Based on priorities identified in regional
+ consensus meetings, AFEM provides data to inform policy-making; offers 
+open-access emergency care training curricula for nurses, midlevel 
+providers, and specialists; coordinates continuing education programs 
+for healthcare providers in emergency care; and much more.</p>
+</div>
+<div>
+<p><a href="http://www.afem.info/" target="_blank"><img class="alignright wp-image-5392" src="aboutemf_bt2_files/READ-MORE.png" alt="read-more" srcset="https://i2.wp.com/www.emergencymedicinekenya.org/wp-content/uploads/2016/08/READ-MORE.png?w=582 582w, https://i0.wp.com/www.emergencymedicinekenya.org/wp-content/uploads/2016/08/READ-MORE.png?resize=300%2C98 300w" sizes="(max-width: 122px) 100vw, 122px" width="122" height="40"></a></p>
+</div>
+<div id="balloon_parent_div_ab" class="kisb" style="visibility: hidden; position: absolute; left: 420px; top: 2168px;"></div>
+<div class="notranslate"></div>
+<div class="notranslate"></div>
+<div class="notranslate"></div>
+<div class="notranslate"></div>
+<div id="kpm_content_wrapper" class="notranslate"></div>
+
+    	</div><!-- .entry-content -->
+
+	</article><!-- #post-## -->
+</div>
+
+				
+			
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+</div>
+	<div id="secondary" class="widget-area col-sm-12 col-md-4" role="complementary">
+		<div class="well">
+						<aside id="search-4" class="widget widget_search">
+<form role="search" method="get" class="form-search" action="http://www.emergencymedicinekenya.org/">
+  <div class="input-group">
+  	<label class="screen-reader-text" for="s">Search for:</label>
+    <input class="form-control search-query" placeholder="Search…" name="s" title="Search for:" type="text">
+    <span class="input-group-btn">
+      <button type="submit" class="btn btn-default" name="submit" id="searchsubmit" value="Search" style=""><span class="glyphicon glyphicon-search"></span></button>
+    </span>
+  </div>
+</form></aside><aside id="cw_axmascount-2" class="widget cw_axmascount"><h3 class="widget-title"> </h3><div id="cw_countdown"><div class="cw_countdown-text">
+          <script type="text/javascript">
+          <!--
+          cw_axmascount();
+          //--></script>7 days <br> til Christmas!</div></div></aside><aside id="text-4" class="widget widget_text"><h3 class="widget-title">Emergency Medicine</h3>			<div class="textwidget">Emergency
+ medicine is a field of practice based on the knowledge and skills 
+required for the prevention, diagnosis and management of acute and 
+urgent aspects of illness and injury affecting patients of all age 
+groups with a full spectrum of episodic undifferentiated physical and 
+behavioural disorders (IFEM) - 
+
+<strong><span style="color: #ff0000;"><a style="color: #ff0000;" href="http://www.emergencymedicinekenya.org/247365-the-evolution-of-emergency-medicine" target="_blank">WATCH VIDEO</a></span></strong>
+<div id="kpm_content_wrapper" class="notranslate"></div>
+
+</div>
+		</aside><aside id="text-2" class="widget widget_text"><h3 class="widget-title">Follow Us Everywhere</h3>			<div class="textwidget"><a href="https://www.facebook.com/emergencymedkenya/" target="_blank"><img title="Facebook" src="aboutemf_bt2_files/facebook-image.png" alt="Facebook" width="40" height="40"></a> 
+<a href="https://chat.whatsapp.com/FqqlImKRf7yGSuZQtv60t8" target="_blank"><img title="WhatsApp" src="aboutemf_bt2_files/Whatsapp.png" alt="WhatsApp" width="40" height="40"></a>
+<a href="https://twitter.com/emergencymedke" target="_blank"><img title="Twitter" src="aboutemf_bt2_files/Twitter.png" alt="Twitter" width="40" height="40"></a>
+<a href="https://www.youtube.com/channel/UCnA7dXBzXr42nB1kcEy2Alg" target="_blank"><img title="YouTube" src="aboutemf_bt2_files/YouTube.jpg" alt="YouTube" width="40" height="40"></a> 
+<a href="https://plus.google.com/100364983439395463272" target="_blank"><img title="Google+" src="aboutemf_bt2_files/Google-plus.jpg" alt="Google Plus" width="40" height="40"></a>
+<a href="https://ke.linkedin.com/in/emergencymedicinekenya" target="_blank"><img title="LinkedIn" src="aboutemf_bt2_files/LinkedIn.png" alt="LinkedIn" width="40" height="40"></a>
+<a href="http://www.emergencymedicinekenya.org/feed/" target="_blank"><img title="RSS" src="aboutemf_bt2_files/RSS.jpg" alt="RSS" width="40" height="40"></a></div>
+		</aside><aside id="image-5" class="widget widget_image"><div class="jetpack-image-container"><a target="_blank" href="https://play.google.com/store/apps/details?id=org.EmergencyMedKenya"><img src="aboutemf_bt2_files/Emergency-MedKenya-.png" alt="Emergency MedKenya" class="aligncenter" width="338" height="152"></a></div>
+</aside><aside id="image-6" class="widget widget_image"><div class="jetpack-image-container"><a target="_blank" href="http://www.emergencymedicinekenya.org/category/resources/videos/"><img src="aboutemf_bt2_files/Videos.png" class="aligncenter" width="331" height="142"></a></div>
+</aside><aside id="image-3" class="widget widget_image"><div class="jetpack-image-container"><a target="_blank" href="http://www.emergencymedicinekenya.org/algorithms"><img src="aboutemf_bt2_files/alg.png" class="aligncenter" width="331" height="142"></a></div>
+</aside><aside id="image-4" class="widget widget_image"><div class="jetpack-image-container"><a target="_blank" href="http://www.emergencymedicinekenya.org/tag/guidelines/"><img src="aboutemf_bt2_files/International-Guidelines-1.png" alt="Emergency MedKenya" class="aligncenter" width="331" height="142"></a></div>
+</aside><style scoped="" type="text/css">.utcw-a0ei4bp {word-wrap:break-word;text-transform:capitalize}.utcw-a0ei4bp span,.utcw-a0ei4bp a{text-decoration:none;font-weight:bold;font-style:normal;border-width:0px}.utcw-a0ei4bp span:hover,.utcw-a0ei4bp a:hover{text-decoration:none;font-style:normal;border-width:0px}</style><aside id="utcw-2" class="widget widget_utcw"><h3 class="widget-title">Click topic of interest</h3><div class="utcw-a0ei4bp"><a class="tag-link-55 utcw-tag utcw-tag-intubation" href="http://www.emergencymedicinekenya.org/tag/intubation/" style="font-size:13.613138686131px;color: #00AC00" title="43 topics">Intubation</a> <a class="tag-link-140 utcw-tag utcw-tag-bls" href="http://www.emergencymedicinekenya.org/tag/bls/" style="font-size:13.025547445255px;color: #00AC00" title="20 topics">BLS</a> <a class="tag-link-184 utcw-tag utcw-tag-acs" href="http://www.emergencymedicinekenya.org/tag/acs/" style="font-size:13.536496350365px;color:#FF0000" title="40 topics">ACS</a> <a class="tag-link-91 utcw-tag utcw-tag-research" href="http://www.emergencymedicinekenya.org/tag/research/" style="font-size:13.587591240876px;color:#FF0000" title="42 topics">Research</a> <a class="tag-link-74 utcw-tag utcw-tag-pneumothorax" href="http://www.emergencymedicinekenya.org/tag/pneumothorax/" style="font-size:13.153284671533px;color:#FF0000" title="25 topics">Pneumothorax</a> <a class="tag-link-61 utcw-tag utcw-tag-prehospital" href="http://www.emergencymedicinekenya.org/tag/prehospital/" style="font-size:13.102189781022px;color:#FF0000" title="23 topics">Prehospital</a> <a class="tag-link-97 utcw-tag utcw-tag-dislocations" href="http://www.emergencymedicinekenya.org/tag/dislocations/" style="font-size:13.051094890511px;color: #00AC00" title="21 topics">Dislocations</a> <a class="tag-link-41 utcw-tag utcw-tag-ecg" href="http://www.emergencymedicinekenya.org/tag/ecg/" style="font-size:14.175182481752px;color:#FF0000" title="65 topics">ECG</a> <a class="tag-link-82 utcw-tag utcw-tag-chest-pain" href="http://www.emergencymedicinekenya.org/tag/chest-pain/" style="font-size:13.28102189781px;color:#FF0000" title="30 topics">Chest Pain</a> <a class="tag-link-62 utcw-tag utcw-tag-education" href="http://www.emergencymedicinekenya.org/tag/education/" style="font-size:14.251824817518px;color: #00AC00" title="68 topics">Education</a> <a class="tag-link-137 utcw-tag utcw-tag-acls" href="http://www.emergencymedicinekenya.org/tag/acls/" style="font-size:14.583941605839px;color:#FF0000" title="81 topics">ACLS</a> <a class="tag-link-27 utcw-tag utcw-tag-emergency-radiology" href="http://www.emergencymedicinekenya.org/tag/emergency-radiology/" style="font-size:18.875912408759px;color: #000000" title="249 topics">Emergency Radiology</a> <a class="tag-link-63 utcw-tag utcw-tag-pharmacology" href="http://www.emergencymedicinekenya.org/tag/pharmacology/" style="font-size:14.251824817518px;color:#FF0000" title="68 topics">Pharmacology</a> <a class="tag-link-218 utcw-tag utcw-tag-fluid-resuscitation" href="http://www.emergencymedicinekenya.org/tag/fluid-resuscitation/" style="font-size:13.076642335766px;color: #00AC00" title="22 topics">Fluid Resuscitation</a> <a class="tag-link-71 utcw-tag utcw-tag-emergency-obstetrics" href="http://www.emergencymedicinekenya.org/tag/emergency-obstetrics/" style="font-size:13.178832116788px;color:#FF0000" title="26 topics">Emergency Obstetrics</a> <a class="tag-link-178 utcw-tag utcw-tag-emergency-medicine" href="http://www.emergencymedicinekenya.org/tag/emergency-medicine/" style="font-size:13.051094890511px;color: #00AC00" title="21 topics">Emergency Medicine</a> <a class="tag-link-122 utcw-tag utcw-tag-sepsis" href="http://www.emergencymedicinekenya.org/tag/sepsis/" style="font-size:13.025547445255px;color: #00AC00" title="20 topics">Sepsis</a> <a class="tag-link-630 utcw-tag utcw-tag-guidelines" href="http://www.emergencymedicinekenya.org/tag/guidelines/" style="font-size:13.076642335766px;color:#FF0000" title="22 topics">Guidelines</a> <a class="tag-link-45 utcw-tag utcw-tag-evidence-based-medicine" href="http://www.emergencymedicinekenya.org/tag/evidence-based-medicine/" style="font-size:13.28102189781px;color: #000000" title="30 topics">Evidence Based Medicine</a> <a class="tag-link-42 utcw-tag utcw-tag-ekg" href="http://www.emergencymedicinekenya.org/tag/ekg/" style="font-size:14.124087591241px;color: #000000" title="63 topics">EKG</a> <a class="tag-link-114 utcw-tag utcw-tag-paediatrics" href="http://www.emergencymedicinekenya.org/tag/paediatrics/" style="font-size:15.248175182482px;color: #00AC00" title="107 topics">Paediatrics</a> <a class="tag-link-90 utcw-tag utcw-tag-wound-care" href="http://www.emergencymedicinekenya.org/tag/wound-care/" style="font-size:13.102189781022px;color: #000000" title="23 topics">Wound care</a> <a class="tag-link-183 utcw-tag utcw-tag-stemi" href="http://www.emergencymedicinekenya.org/tag/stemi/" style="font-size:13.56204379562px;color:#FF0000" title="41 topics">STEMI</a> <a class="tag-link-427 utcw-tag utcw-tag-rapid-sequence-intubation" href="http://www.emergencymedicinekenya.org/tag/rapid-sequence-intubation/" style="font-size:13.025547445255px;color:#FF0000" title="20 topics">Rapid Sequence Intubation</a> <a class="tag-link-46 utcw-tag utcw-tag-antibiotics" href="http://www.emergencymedicinekenya.org/tag/antibiotics/" style="font-size:13.102189781022px;color: #00AC00" title="23 topics">Antibiotics</a> <a class="tag-link-154 utcw-tag utcw-tag-analgesia" href="http://www.emergencymedicinekenya.org/tag/analgesia/" style="font-size:13px;color:#FF0000" title="19 topics">Analgesia</a> <a class="tag-link-340 utcw-tag utcw-tag-rsi" href="http://www.emergencymedicinekenya.org/tag/rsi/" style="font-size:13.229927007299px;color: #000000" title="28 topics">RSI</a> <a class="tag-link-34 utcw-tag utcw-tag-fractures" href="http://www.emergencymedicinekenya.org/tag/fractures/" style="font-size:14.762773722628px;color: #00AC00" title="88 topics">Fractures</a> <a class="tag-link-39 utcw-tag utcw-tag-trauma" href="http://www.emergencymedicinekenya.org/tag/trauma/" style="font-size:20px;color: #000000" title="293 topics">Trauma</a> <a class="tag-link-107 utcw-tag utcw-tag-resuscitation" href="http://www.emergencymedicinekenya.org/tag/resuscitation/" style="font-size:14.07299270073px;color: #000000" title="61 topics">Resuscitation</a></div></aside><aside id="slideshowwidget-2" class="widget SlideshowWidget"><h3 class="widget-title">Emergency Short Courses</h3>
+	<div class="slideshow_container slideshow_container_style-light" style="height: 200px; width: 318px;" data-slideshow-id="3843" data-style-name="style-light" data-style-version="2.3.1" data-slideshow-active="1">
+
+					
+		
+		<div class="slideshow_content" style="width: 318px; height: 200px;">
+
+			<div class="slideshow_view" style="width: 318px; height: 200px; left: -318px; top: 200px;">
+				<div class="slideshow_slide slideshow_slide_image" style="margin-left: 0px; margin-right: 0px; width: 318px; height: 200px;">
+					<a href="http://www.emergencymedicinekenya.org/wp-content/uploads/2016/08/Basic-Life-Support.pdf" target="_blank" tabindex="-1">						<img src="aboutemf_bt2_files/BLS-e1476020419364.jpg" alt="CLICK IMAGE FOR DETAILS" style="width: 318px; height: 200px;" width="318" height="200">
+					</a>					<div class="slideshow_description_box slideshow_transparent">
+						<div class="slideshow_title"><a href="http://www.emergencymedicinekenya.org/wp-content/uploads/2016/08/Basic-Life-Support.pdf" target="_blank" tabindex="-1">CLICK IMAGE FOR DETAILS</a></div>											</div>
+				</div>
+
+						<div style="clear: both;"></div></div><div class="slideshow_view" style="top: 200px; width: 318px; height: 200px; left: -318px;">
+				<div class="slideshow_slide slideshow_slide_image" style="margin-left: 0px; margin-right: 0px; width: 318px; height: 200px;">
+					<a href="http://www.emergencymedicinekenya.org/wp-content/uploads/2016/08/Advanced-Cardiovascular-Life-Support.pdf" target="_blank" tabindex="-1">						<img src="aboutemf_bt2_files/ACLS-e1476020267652.jpg" alt="CLICK IMAGE FOR DETAILS" style="width: 318px; height: 200px;" width="318" height="200">
+					</a>					<div class="slideshow_description_box slideshow_transparent">
+						<div class="slideshow_title"><a href="http://www.emergencymedicinekenya.org/wp-content/uploads/2016/08/Advanced-Cardiovascular-Life-Support.pdf" target="_blank" tabindex="-1">CLICK IMAGE FOR DETAILS</a></div>											</div>
+				</div>
+
+						<div style="clear: both;"></div></div><div class="slideshow_view" style="top: 200px; width: 318px; height: 200px; left: -318px;">
+				<div class="slideshow_slide slideshow_slide_image" style="margin-left: 0px; margin-right: 0px; width: 318px; height: 200px;">
+					<a href="http://www.emergencymedicinekenya.org/wp-content/uploads/2016/11/Advanced-Trauma-Life-Support.pdf" target="_blank" tabindex="-1">						<img src="aboutemf_bt2_files/ATLS.jpg" alt="CLICK IMAGE FOR DETAILS" style="width: 318px; height: 200px;" width="318" height="200">
+					</a>					<div class="slideshow_description_box slideshow_transparent">
+						<div class="slideshow_title"><a href="http://www.emergencymedicinekenya.org/wp-content/uploads/2016/11/Advanced-Trauma-Life-Support.pdf" target="_blank" tabindex="-1">CLICK IMAGE FOR DETAILS</a></div>											</div>
+				</div>
+
+						<div style="clear: both;"></div></div><div class="slideshow_view" style="top: 200px; width: 318px; height: 200px; left: -318px;">
+				<div class="slideshow_slide slideshow_slide_image" style="margin-left: 0px; margin-right: 0px; width: 318px; height: 200px;">
+					<a href="http://www.emergencymedicinekenya.org/wp-content/uploads/2015/10/Advanced-Life-Support-in-Obstetrics.pdf" target="_blank" tabindex="-1">						<img src="aboutemf_bt2_files/also_email1.png" alt="CLICK IMAGE FOR DETAILS" style="width: 318px; height: 200px;" width="318" height="200">
+					</a>					<div class="slideshow_description_box slideshow_transparent">
+						<div class="slideshow_title"><a href="http://www.emergencymedicinekenya.org/wp-content/uploads/2015/10/Advanced-Life-Support-in-Obstetrics.pdf" target="_blank" tabindex="-1">CLICK IMAGE FOR DETAILS</a></div>											</div>
+				</div>
+
+						<div style="clear: both;"></div></div><div class="slideshow_view" style="top: 200px; width: 318px; height: 200px; left: -318px;">
+				<div class="slideshow_slide slideshow_slide_image" style="margin-left: 0px; margin-right: 0px; width: 318px; height: 200px;">
+					<a href="http://www.emergencymedicinekenya.org/wp-content/uploads/2016/08/EPLS.pdf" target="_blank" tabindex="-1">						<img src="aboutemf_bt2_files/erc_epls_bandeau_n2506y25.gif" alt="CLICK IMAGE FOR DETAILS" style="width: 318px; height: 200px;" width="318" height="200">
+					</a>					<div class="slideshow_description_box slideshow_transparent">
+						<div class="slideshow_title"><a href="http://www.emergencymedicinekenya.org/wp-content/uploads/2016/08/EPLS.pdf" target="_blank" tabindex="-1">CLICK IMAGE FOR DETAILS</a></div>											</div>
+				</div>
+
+						<div style="clear: both;"></div></div><div class="slideshow_view slideshow_currentView" style="top: 0px; width: 318px; height: 200px; left: 0px;">
+				<div class="slideshow_slide slideshow_slide_image" style="margin-left: 0px; margin-right: 0px; width: 318px; height: 200px;">
+					<a href="http://www.emergencymedicinekenya.org/wp-content/uploads/2015/11/ETAT-.pdf" target="_blank" tabindex="0">						<img src="aboutemf_bt2_files/ETAT--e1476008420215.jpg" alt="CLICK IMAGE FOR DETAILS" style="width: 318px; height: 200px;" width="318" height="200">
+					</a>					<div class="slideshow_description_box slideshow_transparent">
+						<div class="slideshow_title"><a href="http://www.emergencymedicinekenya.org/wp-content/uploads/2015/11/ETAT-.pdf" target="_blank" tabindex="0">CLICK IMAGE FOR DETAILS</a></div>											</div>
+				</div>
+
+						<div style="clear: both;"></div></div>
+		</div>
+
+		<div class="slideshow_controlPanel slideshow_transparent" style="display: none;"><ul><li class="slideshow_togglePlay" data-play-text="Play" data-pause-text="Pause"></li></ul></div>
+
+		<div class="slideshow_button slideshow_previous slideshow_transparent" role="button" data-previous-text="Previous" style="display: block;" tabindex="0" title="Previous"><span class="assistive-text hide-text">Previous</span></div>
+		<div class="slideshow_button slideshow_next slideshow_transparent" role="button" data-next-text="Next" style="display: block;" tabindex="0" title="Next"><span class="assistive-text hide-text">Next</span></div>
+
+		<div class="slideshow_pagination" style="display: none;" data-go-to-text="Go to slide"><div class="slideshow_pagination_center"><ul><li class="slideshow_transparent" data-view-id="0" role="button" title="Go to slide 1" tabindex="0"><span class="assistive-text hide-text">Go to slide 1</span></li><li class="slideshow_transparent" data-view-id="1" role="button" title="Go to slide 2" tabindex="0"><span class="assistive-text hide-text">Go to slide 2</span></li><li class="slideshow_transparent" data-view-id="2" role="button" title="Go to slide 3" tabindex="0"><span class="assistive-text hide-text">Go to slide 3</span></li><li class="slideshow_transparent" data-view-id="3" role="button" title="Go to slide 4" tabindex="0"><span class="assistive-text hide-text">Go to slide 4</span></li><li class="slideshow_transparent" data-view-id="4" role="button" title="Go to slide 5" tabindex="0"><span class="assistive-text hide-text">Go to slide 5</span></li><li class="slideshow_transparent slideshow_currentView" data-view-id="5" role="button" title="Go to slide 6" tabindex="0"><span class="assistive-text hide-text">Go to slide 6</span></li></ul></div></div>
+
+		<!-- WordPress Slideshow Version 2.3.1 -->
+
+			</div>
+
+</aside><aside id="top-posts-2" class="widget widget_top-posts"><h3 class="widget-title">Top Posts</h3><ul>				<li>
+										<a href="http://www.emergencymedicinekenya.org/how-to-secure-a-chest-tube/" class="bump-view" data-bump-view="tp">
+						How to secure a Chest Tube					</a>
+									</li>
+							<li>
+										<a href="http://www.emergencymedicinekenya.org/salter-harris-fracture-remember-mnemonic-saltr/" class="bump-view" data-bump-view="tp">
+						Salter-Harris Fracture (remember mnemonic SALTR)					</a>
+									</li>
+							<li>
+										<a href="http://www.emergencymedicinekenya.org/productive-cough-and-fevers-for-3-days/" class="bump-view" data-bump-view="tp">
+						Productive cough and fevers for 3 days					</a>
+									</li>
+							<li>
+										<a href="http://www.emergencymedicinekenya.org/emergency-care-algorithms-2015/" class="bump-view" data-bump-view="tp">
+						Emergency Care Algorithms 2015					</a>
+									</li>
+							<li>
+										<a href="http://www.emergencymedicinekenya.org/burns-resuscitation/" class="bump-view" data-bump-view="tp">
+						Burns Resuscitation					</a>
+									</li>
+							<li>
+										<a href="http://www.emergencymedicinekenya.org/nairobi-accident-hotspots/" class="bump-view" data-bump-view="tp">
+						Nairobi Accident Hotspots					</a>
+									</li>
+							<li>
+										<a href="http://www.emergencymedicinekenya.org/tips-for-interpreting-the-csf-opening-pressure/" class="bump-view" data-bump-view="tp">
+						Tips for Interpreting the CSF Opening Pressure					</a>
+									</li>
+							<li>
+										<a href="http://www.emergencymedicinekenya.org/new-2015-resuscitation-guidelines-summary-of-high-quality-cpr-components-for-bls-providers/" class="bump-view" data-bump-view="tp">
+						New 2015 Resuscitation Guidelines: Summary of High-Quality CPR Components for BLS Providers					</a>
+									</li>
+							<li>
+										<a href="http://www.emergencymedicinekenya.org/bronchiolitis/" class="bump-view" data-bump-view="tp">
+						Bronchiolitis					</a>
+									</li>
+							<li>
+										<a href="http://www.emergencymedicinekenya.org/247365-the-evolution-of-emergency-medicine/" class="bump-view" data-bump-view="tp">
+						24|7|365: The Evolution of Emergency Medicine					</a>
+									</li>
+			</ul></aside><aside id="image-7" class="widget widget_image"><div class="jetpack-image-container"><a target="_blank" href="http://www.sciencedirect.com/science/journal/2211419X"><img src="aboutemf_bt2_files/AfJEM.png" class="aligncenter" width="331" height="142"></a></div>
+</aside><aside id="image-8" class="widget widget_image"><div class="jetpack-image-container"><a target="_blank" href="http://www.emergencymedicinekenya.org/disclaimer/"><img src="aboutemf_bt2_files/Disc.png" class="aligncenter" width="331" height="142"></a></div>
+</aside>		</div>
+	</div><!-- #secondary -->
+		</div><!-- close .row -->
+	</div><!-- close .container -->
+</div><!-- close .site-content -->
+
+	<div id="footer-area">
+		<div class="container footer-inner">
+			<div class="row">
+				
+				</div>
+		</div>
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+			<div class="site-info container">
+				<div class="row">
+										<nav role="navigation" class="col-md-6">
+											</nav>
+					<div class="copyright col-md-6">
+						<a href="http://www.emergencymedicinekenya.org/" title="Emergency Medicine Kenya Foundation">Emergency Medicine Kenya Foundation</a>  All rights reserved | <a href="http://www.emergencymedicinekenya.org/disclaimer/"> Disclaimer </a> 						
+					</div>
+				</div>
+			</div><!-- .site-info -->
+			<div class="scroll-to-top" style="display: none;"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
+		</footer><!-- #colophon -->
+	</div>
+</div><!-- #page -->
+
+  <script type="text/javascript">
+    jQuery( document ).ready( function( $ ){
+      if ( $( window ).width() >= 767 ){
+        $( '.navbar-nav > li.menu-item > a' ).click( function(){
+            if( $( this ).attr('target') !== '_blank' ){
+                window.location = $( this ).attr( 'href' );
+            }else{
+                var win = window.open($( this ).attr( 'href' ), '_blank');
+                win.focus();
+            }
+        });
+      }
+    });
+  </script>
+	<div style="display:none">
+	</div>
+<link rel="stylesheet" id="slideshow-jquery-image-gallery-stylesheet_functional-css" href="aboutemf_bt2_files/functional.css" type="text/css" media="all">
+<link rel="stylesheet" id="slideshow-jquery-image-gallery-stylesheet_style-light-css" href="aboutemf_bt2_files/style-light.css" type="text/css" media="all">
+<script type="text/javascript" src="aboutemf_bt2_files/photon.js"></script>
+<script type="text/javascript" src="aboutemf_bt2_files/devicepx-jetpack.js"></script>
+<script type="text/javascript" src="aboutemf_bt2_files/skip-link-focus-fix.js"></script>
+<script type="text/javascript" src="aboutemf_bt2_files/wp-embed.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var SlideshowPluginSettings_3843 = {"animation":"slide","slideSpeed":"1","descriptionSpeed":"0.4","intervalSpeed":"5","slidesPerView":"1","maxWidth":"0","aspectRatio":"3:1","height":"200","imageBehaviour":"stretch","showDescription":"false","hideDescription":"true","preserveSlideshowDimensions":"false","enableResponsiveness":"true","play":"true","loop":"true","pauseOnHover":"true","controllable":"true","hideNavigationButtons":"false","showPagination":"true","hidePagination":"true","controlPanel":"false","hideControlPanel":"true","waitUntilLoaded":"true","showLoadingIcon":"true","random":"false","avoidFilter":"true"};
+var slideshow_jquery_image_gallery_script_adminURL = "http:\/\/www.emergencymedicinekenya.org\/wp-admin\/";
+/* ]]> */
+</script>
+<script type="text/javascript" src="aboutemf_bt2_files/all.js"></script>
+<script type="text/javascript" src="aboutemf_bt2_files/e-201650.js" async="" defer="defer"></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.4.2',blog:'87766702',post:'2',tz:'3',srv:'www.emergencymedicinekenya.org'} ]);
+	_stq.push([ 'clickTrackerInit', '87766702', '2' ]);
+</script>
+
+
+<img src="aboutemf_bt2_files/g.gif" alt=":)" id="wpstats" width="6" height="5"></body></html>

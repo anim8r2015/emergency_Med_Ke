@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:minHeight="80dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:paddingLeft="5dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:background="#C5CAE9"
+    android:foreground="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_height="match_parent">
+        <!--scrollview added for the new stuff-->
+
+    <!--<android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_below="@id/input_message"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="100dp"
+        android:layout_height="wrap_content">-->
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/facebook500"
+            android:id="@+id/fbIcon"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/twitter"
+            android:layout_marginRight="5dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/twIcon"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/googleplus"
+            android:id="@+id/gpIcon"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/linkedin"
+            android:id="@+id/linkedinicon"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/rss"
+            android:layout_marginRight="5dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/rssicon"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/youtubevariation"
+            android:id="@+id/ytbicon"/>
+    <!--</android.support.v7.widget.LinearLayoutCompat>-->
+
+    </RelativeLayout>
+</androidx.appcompat.widget.CardView>

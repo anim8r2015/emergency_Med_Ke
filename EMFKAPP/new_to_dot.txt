@@ -1,0 +1,20 @@
+2. The pictures don’t load when you open the post
+4. The videos don’t link/open
+6. Can you make the entire posts like links so when you press anywhere on the post it opens the post (not just pressing the header)
+
+- Download images/ pages from secure server
+- Check in app pdf display
+- Check mp4 video display
+- work on search
+
+
+------[Done]------------------------
+3. Could we put a tiny version of the thumbprint that Leven aid had designed as the readmore button at the bottom right of every post on the homepage and then when you open the post, a slightly bigger thumbprint is in the same location but now taking you online…the thumbprint makes you want to press it so it will be intuitive (done)
+8. Also, when in the Algorithms Section, the header reads Emergency MedKenya instead of Emergency Care Algorithms and in the Rural Settings, the header is truncated to Rural Setting Algo (done)
+7. Algorithms look good. Each algorithm has a number, if not, it’s part of another so some of the algorithms at the end belong under some numbered one…you just need to move the tab to the right location no need to do anything fancy to it…you can download the complete algorithms at www.emergencymedicinekenya.org/algorithms to see the order (done)
+11. The Social Media Tabs…maybe the red is too much…can maybe have all the icons at the same location but on  a transparent background? Use the icons as they are on our website. Add Instagram in place of the mail one (done)
+12. In the menu after visit website, you can add a contact us and just link that to email one we have removed above (done)
+5. The EMKF logos are small on the start screen and even in the top left corner of the menu…can we make them bigger?
+
+-----[Dependent on Benja]-----------
+10. I see you gave up on the About Page…let me give you the final version of that when we sort it out…it will be better and no more changes

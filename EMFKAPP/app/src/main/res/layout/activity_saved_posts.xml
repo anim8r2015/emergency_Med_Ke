@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:fitsSystemWindows="true"
+    tools:context="main.emfk.com.emfklatest.SearchActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_shadows"
+        android:contentInsetLeft="0dp"
+        android:contentInsetStart="0dp"
+        android:fitsSystemWindows="false"
+        android:theme="@style/AppTheme.NoActionBar"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorWhite"
+
+            android:src="@drawable/enlarged_emf"
+            android:theme="@style/AppTheme.NoActionBar"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"/>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+            android:background="#C5CAE9"
+            android:foreground="?attr/selectableItemBackground"
+            android:minHeight="60dp">
+
+            <android.support.v7.widget.SearchView
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:queryHint="Hint"
+                app:layout_scrollFlags="scroll|enterAlways"/>
+
+        </android.support.v7.widget.CardView>
+    </android.support.design.widget.AppBarLayout>
+    <androidx.appcompat.widget.RecyclerView
+        android:id="@+id/rvPostList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:minHeight="@dimen/listMinHeight">
+
+    </androidx.appcompat.widget.RecyclerView>
+</android.support.design.widget.CoordinatorLayout>

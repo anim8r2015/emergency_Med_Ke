@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="main.emfk.com.emfklatest.Frags.AlgorithmsFrag">
+
+    <br.com.mauker.materialsearchview.MaterialSearchView
+    android:id="@+id/search_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/MaterialSearchViewStyle"/>
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="false"
+        android:background="@drawable/border_shadows"
+        android:theme="@style/AppTheme.NoActionBar">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/rural_setting"
+            android:id="@+id/ruralsetting"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <!-- <android.support.v4.widget.SwipeRefreshLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/swipe_refresh_layout_ems"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.appcompat.widget.RecyclerView
+            android:id="@+id/rvAlgosList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/listMinHeight">
+
+        </androidx.appcompat.widget.RecyclerView>
+
+    </ScrollView>
+
+
+</FrameLayout>

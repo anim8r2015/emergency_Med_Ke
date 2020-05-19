@@ -1,0 +1,163 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="main.emfk.com.emfklatest"
+4    android:versionCode="1"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml
+10
+11    <!-- Internet Permission -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:6:5-66
+12-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:7:5-78
+13-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:8:5-75
+14-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:8:22-73
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:9:5-80
+15-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:10:5-79
+16-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:10:22-77
+17
+18    <application
+18-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:12:5-67:19
+19        android:name="androidx.multidex.MultiDexApplication"
+20        android:allowBackup="true"
+20-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:13:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.0.0] C:\Users\aanyama\.gradle\caches\transforms-2\files-2.1\799659d157cba173c3391744d4f4133c\core-1.0.0\AndroidManifest.xml:22:18-86
+22        android:debuggable="true"
+23        android:icon="@drawable/emf_logo"
+23-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:14:9-42
+24        android:label="@string/app_name"
+24-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:15:9-41
+25        android:supportsRtl="true"
+25-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:16:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:17:9-40
+28        <activity
+28-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:18:9-21:58
+29            android:name="main.emfk.com.emfklatest.SearchActivity"
+29-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:19:13-43
+30            android:icon="@drawable/emf_logo"
+30-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:20:13-46
+31            android:theme="@style/AppTheme.NoActionBar" />
+31-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:21:13-56
+32        <activity
+32-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:22:9-23:66
+33            android:name="main.emfk.com.emfklatest.Activity.AboutEMFActivity"
+33-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:22:19-60
+34            android:parentActivityName="main.emfk.com.emfklatest.Activity.MainActivity" />
+34-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:23:13-64
+35        <activity
+35-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:24:9-25:49
+36            android:name="main.emfk.com.emfklatest.AlgorithmsRuralActivity"
+36-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:24:19-58
+37            android:label="Rural Setting Algo" />
+37-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:25:13-47
+38        <activity
+38-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:26:9-28:46
+39            android:name="main.emfk.com.emfklatest.Activity.MainActivity"
+39-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:27:13-50
+40            android:theme="@style/AppTheme" />
+40-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:28:13-44
+41        <activity
+41-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:29:9-36:20
+42            android:name="main.emfk.com.emfklatest.SplashActivity"
+42-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:30:13-43
+43            android:theme="@style/SplashTheme" >
+43-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:31:13-47
+44            <intent-filter>
+44-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:32:13-35:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:33:17-69
+45-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:33:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:34:17-77
+47-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:34:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity android:name="main.emfk.com.emfklatest.EMSPostsActivity" />
+50-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:38:9-53
+50-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:38:19-51
+51        <activity android:name="main.emfk.com.emfklatest.AlgosActivity" />
+51-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:39:9-50
+51-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:39:19-48
+52        <activity android:name="main.emfk.com.emfklatest.ActivityPostDetail" />
+52-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:40:9-55
+52-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:40:19-53
+53        <activity android:name="main.emfk.com.emfklatest.ReadMoreActivity" />
+53-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:41:9-53
+53-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:41:19-51
+54        <activity android:name="main.emfk.com.emfklatest.PostImageActivity" />
+54-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:42:9-54
+54-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:42:19-52
+55        <activity android:name="main.emfk.com.emfklatest.ContactUsActivity" />
+55-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:43:9-55
+55-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:43:19-52
+56        <activity android:name="main.emfk.com.emfklatest.SavedPostsActivity" />
+56-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:44:9-56
+56-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:44:19-53
+57        <activity android:name="main.emfk.com.emfklatest.AlgorithmsActivity" />
+57-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:45:9-56
+57-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:45:19-53
+58        <activity android:name="main.emfk.com.emfklatest.PDFViewActivity" />
+58-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:46:9-53
+58-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:46:19-50
+59        <activity android:name="main.emfk.com.emfklatest.EMFWebsiteActivity" />
+59-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:47:9-56
+59-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:47:19-53
+60        <activity android:name="main.emfk.com.emfklatest.VideoPostsActivity" />
+60-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:48:9-56
+60-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:48:19-53
+61        <activity android:name="main.emfk.com.emfklatest.HomeActivity" />
+61-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:49:9-50
+61-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:49:19-47
+62        <activity android:name="main.emfk.com.emfklatest.Activity.NewHomeActivity" />
+62-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:50:9-62
+62-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:50:19-59
+63        <activity android:name="main.emfk.com.emfklatest.AllPostsActivity" />
+63-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:51:9-54
+63-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:51:19-51
+64
+65        <service
+65-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:53:9-55:39
+66            android:name="main.emfk.com.emfklatest.DownloadsService"
+66-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:54:13-45
+67            android:exported="false" />
+67-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:55:13-37
+68
+69        <receiver
+69-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:56:9-59:38
+70            android:name="main.emfk.com.emfklatest.DownloadReceiver"
+70-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:57:13-45
+71            android:enabled="true"
+71-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:58:13-35
+72            android:exported="true" />
+72-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:59:13-36
+73
+74        <provider
+74-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:60:9-65:38
+75            android:name="br.com.mauker.materialsearchview.db.HistoryProvider"
+75-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:61:13-79
+76            android:authorities="main.emfk.com.emfklatest.searchhistorydatabase"
+76-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:62:13-81
+77            android:exported="false"
+77-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:63:13-37
+78            android:protectionLevel="signature"
+78-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:64:13-48
+79            android:syncable="true" />
+79-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:65:13-36
+80    </application>
+81
+82</manifest>

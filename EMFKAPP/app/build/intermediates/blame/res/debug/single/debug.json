@@ -1,0 +1,658 @@
+[
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_whatsapp.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\whatsapp.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_scrolling.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\menu\\menu_scrolling.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wfacebook.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\wfacebook.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gmail_icon.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\gmail_icon.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_close_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-hdpi\\ic_close_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_fingerprint_white_36dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\ic_fingerprint_white_36dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mail.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\mail.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ems.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\ems.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_post_image.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\activity_post_image.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_close_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-mdpi\\ic_close_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_saved_posts_no_articles.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\activity_saved_posts_no_articles.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_facebook.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\facebook.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_action_previous_item.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_play_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xhdpi\\ic_play_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_emf_logo.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\emf_logo.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_delete.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\delete.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wwhatsapp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\wwhatsapp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\anim_animation.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\anim\\animation.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_file_pdf_white_36dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xhdpi\\ic_file_pdf_white_36dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_close_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_close_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ems_posts.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\activity_ems_posts.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_search_view.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\search_view.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_file_pdf_white_36dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-mdpi\\ic_file_pdf_white_36dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_play_white_36dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_play_white_36dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_close_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xhdpi\\ic_close_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\arrow.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_save_white_24dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-mdpi\\ic_save_white_24dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_action_previous_item.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_play_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_play_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_algorithms.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\algorithms.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_emf_screen_home.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\emf_screen_home.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_splash.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\ic_splash.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_play_white_36dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_play_white_36dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_algo.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\algo.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_algos_activity.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\algos_activity.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_close_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_close_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_post_details.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\menu\\menu_post_details.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_circle.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\arrow_circle.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_youtubevariation.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\youtubevariation.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_post_image.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\content_post_image.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_line.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\white_line.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_search_white.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\ic_action_search_white.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rss.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\rss.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_save_red_24dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_save_red_24dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_algos_listed_rural.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\activity_algos_listed_rural.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_wv_content.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\wv_content.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_itemlist.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\list_itemlist.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_saved_posts.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\activity_saved_posts.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_em.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\fragment_em.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_red_folder.jpg.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\red_folder.jpg"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_winstagram.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\winstagram.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_assignment_white_36dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-hdpi\\ic_assignment_white_36dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_assignment_white_36dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xhdpi\\ic_assignment_white_36dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_menu_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_menu_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\menu_pdf_viewer.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\menu\\pdf_viewer.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_caution.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\caution.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ems_btn.PNG.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\ems_btn.PNG"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_history_white.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\ic_history_white.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_file_pdf_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xhdpi\\ic_file_pdf_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_twitter.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\twitter.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_new_home_activity.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\new_home_activity.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_assignment_white_36dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_assignment_white_36dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\splash.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_emfk_logo_big.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\emfk_logo_big.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_googleplus.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\googleplus.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_search.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\content_search.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_read_more.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\read_more.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_play_white_36dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-hdpi\\ic_play_white_36dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_algos_listed.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\activity_algos_listed.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_emf.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\emf.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_file_pdf_white_36dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-hdpi\\ic_file_pdf_white_36dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_trash.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\trash.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\home.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_wv_main2.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\wv_main2.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_facebook500.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\facebook500.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_touch_fab.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\touch_fab.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_linkedin.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\linkedin.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_save_white_24dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-hdpi\\ic_save_white_24dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_listviewitem.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\listviewitem.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wgplus.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\wgplus.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_whatsapp_logo.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\whatsapp_logo.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_action_previous_item.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-mdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_voice_search.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\ic_action_voice_search.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\anim_scale.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\anim\\scale.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_file_pdf_white_36dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_file_pdf_white_36dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vimeo_logo.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\vimeo_logo.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_youtube.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\youtube.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_save_white_24dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_save_white_24dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wtwitter.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\wtwitter.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_action_next_item.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-hdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_home_activity_layout.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\home_activity_layout.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_action_next_item.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-mdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_menu_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-hdpi\\ic_menu_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_file_list_item.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\file_list_item.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_play_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-hdpi\\ic_play_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_save_white_24dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_save_white_24dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_file_pdf_white_36dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_file_pdf_white_36dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wlinkedin.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\wlinkedin.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_action_previous_item.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-hdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_post_detail_layout.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\post_detail_layout.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_play_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-mdpi\\ic_play_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_save_red_24dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_save_red_24dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_play_white_36dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-mdpi\\ic_play_white_36dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_download_ic.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\download_ic.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_navigation_arrow_back.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\ic_action_navigation_arrow_back.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_emfk.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\emfk.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_save_red_24dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-mdpi\\ic_save_red_24dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_fingerprint_white_36px.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\ic_fingerprint_white_36px.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vimeo_logo2.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\vimeo_logo2.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_pdf_viewer_activity.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\pdf_viewer_activity.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_action_next_item.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vids.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\vids.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_full_web_layout.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\full_web_layout.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_left.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\arrow_left.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_save_red_24dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xhdpi\\ic_save_red_24dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_videos_btn.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\videos_btn.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_fingerprint_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\ic_fingerprint_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_menu_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_menu_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_home_list_item.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\home_list_item.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_assignment_white_36dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_assignment_white_36dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_algorithms.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\fragment_algorithms.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wtelegram.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\wtelegram.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_shadows.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\border_shadows.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_my_downloads.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\fragment_my_downloads.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_play_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_play_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_play_white_36dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xhdpi\\ic_play_white_36dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wwoutube.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\wwoutube.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_menu_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-mdpi\\ic_menu_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_file_pdf_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_file_pdf_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_enlarged_emf.PNG.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\enlarged_emf.PNG"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_file_pdf_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_file_pdf_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_contact_us.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\activity_contact_us.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_menu_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xhdpi\\ic_menu_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_save_red_24dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-hdpi\\ic_save_red_24dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_layout.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\custom_layout.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_file_pdf_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-mdpi\\ic_file_pdf_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_file_pdf_white_48dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-hdpi\\ic_file_pdf_white_48dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_download_ic_red.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\download_ic_red.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_videos.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\fragment_videos.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rural_setting.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\rural_setting.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_navigation_close.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\ic_action_navigation_close.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_posts.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\fragment_posts.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_wv_main.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\wv_main.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_action_next_item.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout_web_layout.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\layout\\web_layout.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_save_white_24dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-xhdpi\\ic_save_white_24dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_posts_btn.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\posts_btn.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_about.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\drawable\\about.xml"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_assignment_white_36dp.png.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\mipmap-mdpi\\ic_assignment_white_36dp.png"
+    },
+    {
+        "merged": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_search.xml.flat",
+        "source": "B:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\src\\main\\res\\menu\\menu_search.xml"
+    }
+]

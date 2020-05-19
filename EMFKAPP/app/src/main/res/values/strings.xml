@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Emergency MedKenya</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="search_label">Search</string>
+    <string name="search_hint">Search Content</string>
+    <string name="settings_description">List of Content</string>
+
+    <string name="contact_us">Contact Us</string>
+    <string name="web_link">Website</string>
+    <string name="algorithms">Algorithms</string>
+    <string name="ems">EMS</string>
+    <string name="about">About</string>
+    <string name="read_more">Read More</string>
+    <string name="emsposts">EMS</string>
+
+    <!--activity headers-->
+    <string name="algos">Algorithms</string>
+    <string name="aboutTitle">Emergency Foundation Kenya</string>
+    <string name="posts">Post</string>
+
+    <!--algos titles-->
+    <string name="resource_l">Emergency Care Algorithms for Resource Limited Settings 2015</string>
+    <string name="resource_f">Emergency Care Algorithms 2015</string>
+    <string name="view_more">VIEW</string>
+    <string name="title_activity_post_image">PostImageActivity</string>
+    <string name="email">PostImageActivity</string>
+    <string name="videos_link">Videos</string>
+
+    <!--contact us activity string val-->
+    <string name="post_box">P.O. Box 1023, City Square 00200, Nairobi, Kenya.</string>
+    <string name="phone_str"> +254 20 2100054 / +254 710 633 855 (mobile)</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Subject</string>
+    <string name="hint_message">Message</string>
+    <string name="stylertext"><![CDATA[<link rel="stylesheet" id="bb-taps-editor-style-shared-css" href="aboutemf_files/editor-style-shared.css" type="text/css" media="all">
+<link rel="stylesheet" id="wpemfb-lightbox-css" href="aboutemf_files/lightbox.css" type="text/css" media="all">
+<link rel="stylesheet" id="sparkling-bootstrap-css" href="aboutemf_files/bootstrap.css" type="text/css" media="all">
+<link rel="stylesheet" id="sparkling-icons-css" href="aboutemf_files/font-awesome.css" type="text/css" media="all">
+<link rel="stylesheet" id="sparkling-fonts-css" // showing dot next to notifications label
+        navigationView.getMenu().getItem(0).setActionView(R.layout.menu_dot);href="aboutemf_files/css.css" type="text/css" media="all">
+<link rel="stylesheet" id="sparkling-style-css" href="aboutemf_files/style_004.css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack_image_widget-css" href="aboutemf_files/style_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack-top-posts-widget-css" href="aboutemf_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack-whatsapp-css" href="aboutemf_files/style_003.css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack_css-css" href="aboutemf_files/jetpack.css" type="text/css" media="all">
+<script type="text/javascript" src="aboutemf_files/jquery.js"></script>
+<script type="text/javascript" src="aboutemf_files/jquery-migrate.js"></script>
+<script type="text/javascript" src="aboutemf_files/lightbox.js"></script>
+<style> body { background-color: white; } table { font-size:small; padding-right:15px; padding-top: 15px; border-spacing: 5px;
+ border-collapse: seperate; }
+td { padding: 5px; } </style>
+<script type="text/javascript" src="aboutemf_files/wpembedfb.js"></script>]]></string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Nav Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_algo">Algorithms</string>
+    <string name="nav_videos">Videos</string>
+    <string name="nav_ems">EMS</string>
+    <string name="nav_savedposts">Saved Posts</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_social_media">Social Media</string>
+    <string name="nav_website_link">Visit Website</string>
+    <string name="nav_contact_link">Contact Us</string>
+
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="navtitles">
+        <item>Home</item>
+        <item>Algorithms</item>
+        <item>Videos</item>
+        <item>EMS</item>
+        <item>Saved Posts</item>
+        <item>Website</item>
+    </string-array>
+<!--
+    <string-array name="algos_normal">
+        <item>Adult Cardiac Arrest Algorithm</item>
+        <item>Maternal Cardiac Arrest_Algorithm</item>
+        <item>Neonatal Resuscitation Algorithm</item>
+        <item>Post Cardiac Arrest Algorithm</item>
+        <item>Rapid Sequence Intubation Algorithm</item>
+        <item>Failed Intubation Algorithm</item>
+        <item>Anaphylaxis Algorithm</item>
+        <item>Acute Asthma Exacerbation Algorithm</item>
+        <item>Seizures Algorithm</item>
+        <item>Syncope Algorithm</item>
+        <item>Chest Pain (Acute Coronary Syndrome) Algorithm</item>
+        <item>STEMI Algorithm</item>
+        <item>NSTEMI &amp; Unstable Angina Algorithm;"13_NSTEMI_&amp;</item>
+        <item>Adult Bradycardia &amp; Tachycardia (with Pulse) Algorithm</item>
+        <item>Pulmonary Embolism Algorithm</item>
+        <item>Transient Ischemic Attack (TIA) Algorithm</item>
+        <item>Stroke Algorithm</item>
+        <item>Hypertension Algorithm</item>
+        <item>Hypertensive Emergencies Algorithm</item>
+        <item>Hyperglycaemia Algorithm</item>
+        <item>Diabetic Ketoacidosis (DKA) &amp; Hyperosmolar Hyperglycaemic State (HHS) Algorithm</item>
+        <item>Electrolyte Abnormalities Algorithm</item>
+        <item>Hypoglycaemia Algorithm</item>
+        <item>Sepsis &amp; Septic Shock Diagnostic Criteria</item>
+        <item>Antimicrobial Guide</item>
+        <item>Bites (Animal, Human, Snakes)</item>
+        <item>Epigastric Pain Algorithm</item>
+        <item>Upper Gastrointestinal Bleeding Algorithm</item>
+        <item>Epistaxis Algorithm</item>
+        <item>Trauma Management Pathway</item>
+        <item>C-Spine Clearance Algorithm</item>
+        <item>Mild Traumatic Brain Injury</item>
+        <item>Burns Resuscitation Pathway (Assessment)</item>
+        <item>Low Back Pain Algorithm</item>
+        <item>Management of Pain in Sickle Cell Disease Algorithm"</item>
+        <item>Poisoning"</item>
+        <item>Organophosphate Poisoning Algorithm"</item>
+        <item>Alcohol (Methanol) Poisoning Algorithm"</item>
+        <item>Pain Management Algorithm"</item>
+        <item>Management of the severely agitated or violent patient"</item>
+        <item>Procedural Sedation and Analgesia (PSA)"</item>
+        <item>Analgesia Chart"</item>
+        <item>Burns Resuscitation Pathway (Resuscitation)"</item>
+        <item>Evidence-Based Dosing for Antihypertensive Drugs"</item>
+        <item>Hypertensive Emergencies Drug Infusions"</item>
+        <item>Joint National Committee (JNC VIII) Algorithm  for initiating Antihypertensive Drugs"</item>
+        <item>Joint National Committee (JNC VIII) Guidelines"</item>
+        <item>Minor Head Injury Discharge Advice"</item>
+        <item>Peak Expiratory Flow Chart"</item>
+        <item>Procedural Sedation and Analgesia Physician Checklist"</item>
+        <item>Sepsis &amp; Septic Shock Algorithm"</item>
+        <item>Stroke Reperfusion Checklist"</item>
+        <item>Transcutaneous Pacing Procedure"</item>
+    </string-array>
+    -->
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="hello_blank_fragment">bleh</string>
+
+</resources>

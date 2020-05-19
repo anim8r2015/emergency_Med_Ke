@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorWhite"
+    tools:context="main.emfk.com.emfklatest.SearchActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="false"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorWhite"
+            android:contentInsetLeft="0dp"
+            android:contentInsetStart="0dp"
+            android:src="@drawable/enlarged_emf"
+            android:theme="@style/AppTheme.NoActionBar"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"/>
+    </android.support.design.widget.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="top"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/titleText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dip"
+                        android:text="@string/resource_f"
+                        android:layout_alignParentTop="true"
+                        android:paddingLeft="2dip"
+                        android:textSize="@dimen/listTextSize"
+                        android:textColor="@color/colorBlack"
+                        android:layout_marginLeft="10dp"
+                        android:width="0dip"
+                        android:ellipsize="none"/>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:layout_alignParentTop="false"
+                        android:layout_alignParentLeft="true"
+                        android:src="@drawable/emf"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_below="@id/titleText"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imgView"/>
+
+                    <android.widget.Button
+                        android:id="@+id/rcfullBtn"
+                        android:layout_width="match_parent"
+                        android:paddingLeft="0dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorRed"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_marginBottom="20dp"
+                        android:layout_below="@id/imgView"
+                        android:text="@string/view_more"/>
+
+
+                    <TextView
+                        android:id="@+id/titleText2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dip"
+                        android:text="@string/resource_l"
+                        android:layout_alignParentTop="true"
+                        android:paddingLeft="2dip"
+                        android:textSize="@dimen/listTextSize"
+                        android:textColor="@color/colorBlack"
+                        android:layout_marginLeft="10dp"
+                        android:width="0dip"
+                        android:ellipsize="none"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_alignParentTop="false"
+                        android:layout_height="80dp"
+                        android:layout_alignParentLeft="true"
+                        android:src="@drawable/emf"
+                        android:layout_below="@id/titleText2"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imgView2"/>
+
+                    <android.widget.Button
+                        android:id="@+id/rclimitedBtn"
+                        android:layout_width="match_parent"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:background="@color/colorRed"
+                        android:layout_below="@id/imgView2"
+                        android:textColor="@color/colorWhite"
+                        android:text="@string/view_more"
+                        android:layout_margin="@dimen/fab_margin"/>
+                </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
