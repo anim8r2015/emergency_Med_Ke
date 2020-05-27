@@ -47,14 +47,12 @@ public class ActivityPostDetail extends AppCompatActivity {
     private String linkType = null;
     private PostsDBAdapter mDbHelper;
     private WebView wvContent;
-    byte data[];
+
     //progress dialogue
     // Progress Dialog
     private ProgressDialog pDialog;
     public static final int progress_bar_type = 0;
 
-    // File url to download
-    private static String file_url = "http://www.qwikisoft.com/demo/ashade/20001.kml";
 
     private static String DOWNLOAD_LOC = Environment
             .getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).toString();
@@ -71,10 +69,10 @@ public class ActivityPostDetail extends AppCompatActivity {
         adampro = Typeface.createFromAsset(getAssets(), "fonts/adam_cg_pro.otf");
         japooki = Typeface.createFromAsset(getAssets(), "fonts/jaapokki_regular.otf");
 
-        mFabReadMore = (FloatingActionButton)findViewById(R.id.fabReadMore);
-        wvContent = (WebView) findViewById(R.id.wvContent);
+        mFabReadMore = findViewById(R.id.fabReadMore);
+        wvContent = findViewById(R.id.wvContent);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setContentInsetsAbsolute(0, 0);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("");

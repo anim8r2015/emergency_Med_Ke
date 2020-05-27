@@ -16,13 +16,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d7d5908-b88e-4880-84e5-026a05949513" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/emfk/com/emfklatest/Frags/HomeFrag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_contact_us.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_donate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_forum.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_posts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_website.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_youtube.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/algos_mapped.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/algos_mapped.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/algos_mapped_rural.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/algos_mapped_rural.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/emfk/com/emfklatest/Activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/emfk/com/emfklatest/Activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/emfk/com/emfklatest/ActivityPostDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/emfk/com/emfklatest/ActivityPostDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/emfk/com/emfklatest/EMFUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/emfk/com/emfklatest/EMFUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/emfk/com/emfklatest/Frags/HomeFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/emfk/com/emfklatest/Frags/HomeFrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/menu/activity_main_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/menu/activity_main_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +53,11 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="anim8r" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1br7BcRcb3O1BsrAGBIVOYYYt8R" />
@@ -173,7 +187,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

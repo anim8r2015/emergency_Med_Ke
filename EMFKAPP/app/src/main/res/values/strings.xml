@@ -63,11 +63,13 @@ td { padding: 5px; } </style>
     <string name="nav_videos">Videos</string>
     <string name="nav_ems">EMS</string>
     <string name="nav_savedposts">Saved Posts</string>
+    <string name="nav_viewdposts">View Posts</string>
     <string name="nav_about_us">About Us</string>
     <string name="nav_social_media">Social Media</string>
     <string name="nav_website_link">Visit Website</string>
     <string name="nav_contact_link">Contact Us</string>
-
+    <string name="nav_youtube_channel">Youtube Channel</string>
+    <string name="nav_donate">Donate</string>
 
     <!-- Toolbar titles when navigation menu item is selected -->
     <string-array name="navtitles">

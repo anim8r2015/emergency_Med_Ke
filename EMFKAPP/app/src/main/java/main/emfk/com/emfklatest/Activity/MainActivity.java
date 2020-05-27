@@ -65,9 +65,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     // urls to load navigation header background image
     // and profile image
 
-    // TODO Look for image here
-    private static final String urlNavHeaderBg = "http://api.androidhive.info/images/nav-menu-header-bg.jpg";
-    private static final String urlProfileImg = "https://162.243.57.193/ppic.jpg";
     // index to identify current nav menu item
     public static int navItemIndex = 0;
 
@@ -79,6 +76,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private static final String TAG_SAVD = "saved_stuff";
     private static final String TAG_WEBSITE = "website";
     private static final String TAG_ABOUT_US = "about_us";
+    private static final String TAG_HOME_FRAG = "home";
 
     public static String CURRENT_TAG = TAG_POSTS;
 

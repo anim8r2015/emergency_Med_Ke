@@ -365,6 +365,7 @@ public class EMFUtilities {
         return s;
     }
 
+    //to implement with default data when app is started offline
     public String getOfflineText() {
         String json = null;
         try {
@@ -382,17 +383,17 @@ public class EMFUtilities {
     }
 
     public static String searchVideoUrl(String str) {
-        String s = null;
+        String videoSource = null;
         try {
 
             Document doc = Jsoup.parse(str);
             Element iframe = doc.select("iframe").first();
-            s = iframe.attr("src");
-            Log.d("YTB", "Youtube: " + s);
+            videoSource = iframe.attr("src");
+            Log.d("YTB", "Youtube: " + videoSource);
         } catch (Exception e){
-            s = null;
+            videoSource = null;
         }
-        return s;
+        return videoSource;
     }
 
     public static String extractVideoId(String ytUrl) {

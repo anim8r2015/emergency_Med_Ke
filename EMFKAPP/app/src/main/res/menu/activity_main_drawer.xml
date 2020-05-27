@@ -6,23 +6,22 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/home"
             android:title="@string/nav_home" />
-        <item
-            android:id="@+id/nav_algo"
-            android:icon="@drawable/algo"
-            android:title="@string/nav_algo" />
-        <item
-            android:id="@+id/nav_vids"
-            android:icon="@drawable/vids"
-            android:title="@string/nav_videos" />
 
         <item
-            android:id="@+id/nav_ems"
-            android:icon="@drawable/ems"
-            android:title="EMS" />
+            android:id="@+id/nav_view_posts"
+            android:icon="@drawable/ic_posts"
+            android:title="@string/nav_viewdposts" />
+
         <item android:id="@+id/mydownloads"
-
             android:icon="@drawable/download_ic"
             android:title="Saved Posts"/>
+
+
+        <item
+            android:id="@+id/nav_youtube_channel"
+            android:icon="@drawable/ic_youtube"
+            android:title="@string/nav_youtube_channel" />
+
     </group>
     <item android:title="Other">
         <menu>
@@ -30,18 +29,20 @@
                 android:id="@+id/nav_about_us"
                 android:icon="@drawable/about"
                 android:title="@string/nav_about_us" />
-            <item
-                android:id="@+id/nav_social_media"
-                android:icon="@drawable/about"
-                android:title="@string/nav_social_media" />
+
             <item
                 android:id="@+id/nav_website_link"
-                android:icon="@drawable/about"
+                android:icon="@drawable/ic_website"
                 android:title="@string/nav_website_link" />
             <item
                 android:id="@+id/nav_contact_link"
-                android:icon="@drawable/about"
+                android:icon="@drawable/ic_contact_us"
                 android:title="@string/nav_contact_link" />
+
+            <item
+                android:id="@+id/nav_donate"
+                android:icon="@drawable/ic_donate"
+                android:title="@string/nav_donate" />
         </menu>
     </item>
 
