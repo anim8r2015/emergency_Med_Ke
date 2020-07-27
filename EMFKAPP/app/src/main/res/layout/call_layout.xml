@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_custom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:background="@color/colorWhite">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:text="Click Number To Dial"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="Rescue"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:layout_margin="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="0714911911"
+                android:linksClickable="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:text="E-Plus"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:layout_margin="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="0700395395"
+                android:linksClickable="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="MSF (Rape)"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_margin="10dp"
+                android:text="0711400506"
+                android:linksClickable="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="Suicide Helpline"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="0800723253"
+                android:layout_margin="10dp"
+                android:linksClickable="true"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

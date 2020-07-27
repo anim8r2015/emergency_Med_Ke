@@ -1,1 +1,28 @@
-[{"outputType":{"type":"PROCESSED_RES"},"apkData":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"2.0","enabled":true,"outputFile":"app-debug.apk","fullName":"debug","baseName":"debug","dirName":""},"path":"resources-debug.ap_","properties":{"packageId":"main.emfk.com.emfklatest","split":"","minSdkVersion":"14"}}]
+{
+  "version": 1,
+  "applicationId": "main.emfk.com.emfklatest",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "2.0",
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "resources-debug.ap_",
+      "properties": {
+        "packageId": "main.emfk.com.emfklatest",
+        "split": "",
+        "minSdkVersion": "14"
+      }
+    }
+  ]
+}

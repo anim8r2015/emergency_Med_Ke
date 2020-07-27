@@ -16,9 +16,10 @@ public class EMFWebsiteActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.full_web_layout);
+        String website = getResources().getString(R.string.emed_website_url);
 
         webView = (WebView) findViewById(R.id.webView1);
-        startWebView("http://www.emergencymedicinekenya.org/");
+        startWebView(website);
     }
 
     @SuppressLint("JavascriptInterface")
@@ -34,19 +35,19 @@ public class EMFWebsiteActivity extends AppCompatActivity {
             }
             //Show loader on url load
             public void onLoadResource (WebView view, String url) {
-                if (progressDialog == null) {
+               /* if (progressDialog == null) {
                     // in standard case YourActivity.this
                     progressDialog = new ProgressDialog(EMFWebsiteActivity.this);
                     progressDialog.setMessage("Loading...");
                     progressDialog.show();
-                }
+                }*/
             }
             public void onPageFinished(WebView view, String url) {
                 try{
-                    if (progressDialog.isShowing()) {
+                   /* if (progressDialog.isShowing()) {
                         progressDialog.dismiss();
                         progressDialog = null;
-                    }
+                    }*/
                 }catch(Exception exception){
                     exception.printStackTrace();
                 }
@@ -58,7 +59,7 @@ public class EMFWebsiteActivity extends AppCompatActivity {
         webView.getSettings().setAllowFileAccess( true );
         webView.getSettings().setAppCacheEnabled( true );
 
-        webView.getSettings().setCacheMode( WebSettings.LOAD_DEFAULT );
+        webView.getSettings().setCacheMode( WebSettings.LOAD_CACHE_ELSE_NETWORK );
 
         if ( !new EMFUtilities(getApplicationContext()).isNetworkAvailable() ) { // loading offline
             webView.getSettings().setCacheMode( WebSettings.LOAD_CACHE_ELSE_NETWORK );

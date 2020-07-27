@@ -83,7 +83,7 @@ public class SavedPosts extends Fragment {
         View view = inflater.inflate(R.layout.fragment_my_downloads, container, false);
 
 
-        recyclerView = (RecyclerView) view.findViewById(R.id.rvPostList);
+        recyclerView = view.findViewById(R.id.rvPostList);
 
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity().getApplicationContext());
 

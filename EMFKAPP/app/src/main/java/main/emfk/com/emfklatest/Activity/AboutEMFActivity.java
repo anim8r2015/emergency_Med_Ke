@@ -24,7 +24,7 @@ public class AboutEMFActivity  extends AppCompatActivity {
     private String webUrl = null;
 
     //private String aboutUrl = "file:///android_asset/aboutemf_bt2.htm";
-    private String aboutUrl = "https://www.emergencymedicinekenya.org/about";
+
     private WebView webView;
     private ProgressBar progressBar;
     private ImageView imgHeader;
@@ -32,6 +32,7 @@ public class AboutEMFActivity  extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.wv_main);
+        String aboutUrl = getResources().getString(R.string.about_emfk_url);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -57,19 +58,19 @@ public class AboutEMFActivity  extends AppCompatActivity {
             }
             //Show loader on url load
             public void onLoadResource (WebView view, String url) {
-                if (progressDialog == null) {
+               /* if (progressDialog == null) {
                     // in standard case YourActivity.this
                     progressDialog = new ProgressDialog(AboutEMFActivity.this);
                     progressDialog.setMessage("Loading...");
                     progressDialog.show();
-                }
+                }*/
             }
             public void onPageFinished(WebView view, String url) {
                 try{
-                    if (progressDialog.isShowing()) {
+                 /*   if (progressDialog.isShowing()) {
                         progressDialog.dismiss();
                         progressDialog = null;
-                    }
+                    }*/
                 }catch(Exception exception){
                     exception.printStackTrace();
                 }

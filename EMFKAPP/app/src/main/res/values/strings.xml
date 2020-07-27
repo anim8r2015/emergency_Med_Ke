@@ -74,71 +74,30 @@ td { padding: 5px; } </style>
     <!-- Toolbar titles when navigation menu item is selected -->
     <string-array name="navtitles">
         <item>Home</item>
-        <item>Algorithms</item>
-        <item>Videos</item>
-        <item>EMS</item>
+        <item>Posts</item>
         <item>Saved Posts</item>
         <item>Website</item>
     </string-array>
-<!--
-    <string-array name="algos_normal">
-        <item>Adult Cardiac Arrest Algorithm</item>
-        <item>Maternal Cardiac Arrest_Algorithm</item>
-        <item>Neonatal Resuscitation Algorithm</item>
-        <item>Post Cardiac Arrest Algorithm</item>
-        <item>Rapid Sequence Intubation Algorithm</item>
-        <item>Failed Intubation Algorithm</item>
-        <item>Anaphylaxis Algorithm</item>
-        <item>Acute Asthma Exacerbation Algorithm</item>
-        <item>Seizures Algorithm</item>
-        <item>Syncope Algorithm</item>
-        <item>Chest Pain (Acute Coronary Syndrome) Algorithm</item>
-        <item>STEMI Algorithm</item>
-        <item>NSTEMI &amp; Unstable Angina Algorithm;"13_NSTEMI_&amp;</item>
-        <item>Adult Bradycardia &amp; Tachycardia (with Pulse) Algorithm</item>
-        <item>Pulmonary Embolism Algorithm</item>
-        <item>Transient Ischemic Attack (TIA) Algorithm</item>
-        <item>Stroke Algorithm</item>
-        <item>Hypertension Algorithm</item>
-        <item>Hypertensive Emergencies Algorithm</item>
-        <item>Hyperglycaemia Algorithm</item>
-        <item>Diabetic Ketoacidosis (DKA) &amp; Hyperosmolar Hyperglycaemic State (HHS) Algorithm</item>
-        <item>Electrolyte Abnormalities Algorithm</item>
-        <item>Hypoglycaemia Algorithm</item>
-        <item>Sepsis &amp; Septic Shock Diagnostic Criteria</item>
-        <item>Antimicrobial Guide</item>
-        <item>Bites (Animal, Human, Snakes)</item>
-        <item>Epigastric Pain Algorithm</item>
-        <item>Upper Gastrointestinal Bleeding Algorithm</item>
-        <item>Epistaxis Algorithm</item>
-        <item>Trauma Management Pathway</item>
-        <item>C-Spine Clearance Algorithm</item>
-        <item>Mild Traumatic Brain Injury</item>
-        <item>Burns Resuscitation Pathway (Assessment)</item>
-        <item>Low Back Pain Algorithm</item>
-        <item>Management of Pain in Sickle Cell Disease Algorithm"</item>
-        <item>Poisoning"</item>
-        <item>Organophosphate Poisoning Algorithm"</item>
-        <item>Alcohol (Methanol) Poisoning Algorithm"</item>
-        <item>Pain Management Algorithm"</item>
-        <item>Management of the severely agitated or violent patient"</item>
-        <item>Procedural Sedation and Analgesia (PSA)"</item>
-        <item>Analgesia Chart"</item>
-        <item>Burns Resuscitation Pathway (Resuscitation)"</item>
-        <item>Evidence-Based Dosing for Antihypertensive Drugs"</item>
-        <item>Hypertensive Emergencies Drug Infusions"</item>
-        <item>Joint National Committee (JNC VIII) Algorithm  for initiating Antihypertensive Drugs"</item>
-        <item>Joint National Committee (JNC VIII) Guidelines"</item>
-        <item>Minor Head Injury Discharge Advice"</item>
-        <item>Peak Expiratory Flow Chart"</item>
-        <item>Procedural Sedation and Analgesia Physician Checklist"</item>
-        <item>Sepsis &amp; Septic Shock Algorithm"</item>
-        <item>Stroke Reperfusion Checklist"</item>
-        <item>Transcutaneous Pacing Procedure"</item>
-    </string-array>
-    -->
+
     <string name="openDrawer">open_drawer</string>
     <string name="closeDrawer">close_drawer</string>
     <string name="hello_blank_fragment">bleh</string>
+
+    <string name="call_ambulance">Call an Ambulance</string>
+    <string name="locate_emed">Locate Nearest Emergency Department</string>
+    <string name="first_health">First Aid &amp; Health</string>
+    <string name="for_pros">For Healthcare Professionals</string>
+    <string name="emed_algos">Emergency Care Algorithms</string>
+    <string name="latest_emed_updates">Latest Emergency Care Updates (Online)</string>
+    <string name="about_emed">Medicine Kenya Foundation (EMK Foundation) is a not for-profit organization</string>
+    <string name="donate">Donate</string>
+    <string name="maps_url">https://www.google.com/maps/d/viewer?mid=1va_Iny1wJ00zGJtsQhCr_BQHRxQu1BkU&amp;usp=sharing</string>
+    <string name="donate_url">https://www.emergencymedicinekenya.org/donate/</string>
+    <string name="about_emfk_url">https://www.emergencymedicinekenya.org/emkf/</string>
+    <string name="emed_online_url">https://www.emergencymedicinekenya.org/foamed/</string>
+    <string name="emed_website_url">http://www.emergencymedicinekenya.org/</string>
+    <string name="emed_contact_url">https://www.emergencymedicinekenya.org/contact-us/</string>
+
+
 
 </resources>

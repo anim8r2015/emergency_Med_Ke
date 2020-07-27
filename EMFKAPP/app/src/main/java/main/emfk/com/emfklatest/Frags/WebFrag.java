@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
@@ -28,7 +29,7 @@ public class WebFrag extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    private String aboutUrl = "https://www.emergencymedicinekenya.org/";
+    private String aboutUrl = "https://www.google.com/maps/d/viewer?mid=1va_Iny1wJ00zGJtsQhCr_BQHRxQu1BkU&usp=sharing";
     private WebView wv;
     private ProgressBar progressBar;
     private ImageView imgHeader;
@@ -91,14 +92,12 @@ public class WebFrag extends Fragment {
 
         wv = (WebView) view.findViewById(R.id.webView);
         progressBar = (ProgressBar) view.findViewById(R.id.progressBar);
-        //imgHeader = (ImageView) view.findViewById(R.id.backdrop);
 
-        // initializing toolbar
-        //initCollapsingToolbar();
-
-        wv.getSettings().setJavaScriptEnabled(true);
         wv.loadUrl(aboutUrl);
+        wv.getSettings().setJavaScriptEnabled(true);
 
+
+        wv.setWebViewClient(new WebViewClient());
         wv.setHorizontalScrollBarEnabled(false);
 
         return view;

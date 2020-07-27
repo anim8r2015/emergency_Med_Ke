@@ -97,7 +97,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             protected String doInBackground(String... params) {
                 DefaultHttpClient httpclient = new DefaultHttpClient(new BasicHttpParams());
-                String q = "http://www.emergencymedicinekenya.org/?json=get_recent_posts&count=50"; //+ POST_LIMIT;
+                String q = "https://www.emergencymedicinekenya.org/?json=get_recent_posts&count=200"; //+ POST_LIMIT;
                 Log.d("QRY","The query " + q);
                 HttpGet httppost = new HttpGet(q);
                 httppost.setHeader("Content-type", "application/json");

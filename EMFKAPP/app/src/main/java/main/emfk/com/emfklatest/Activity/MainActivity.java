@@ -14,7 +14,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings;
 import androidx.annotation.NonNull;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.core.app.ActivityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
@@ -40,14 +40,15 @@ import android.widget.ImageView;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.Toast;
-import java.util.ArrayList;
 import java.util.List;
 
 import br.com.mauker.materialsearchview.MaterialSearchView;
 import br.com.mauker.materialsearchview.db.HistoryContract;
-import main.emfk.com.emfklatest.Algorithms;
-import main.emfk.com.emfklatest.AlgorithmsActivity;
+import main.emfk.com.emfklatest.DonateWebActivity;
+import main.emfk.com.emfklatest.EMFContactActivity;
+import main.emfk.com.emfklatest.EMFWebsiteActivity;
 import main.emfk.com.emfklatest.Frags.EMSFrag;
+import main.emfk.com.emfklatest.Frags.HomeFrag;
 import main.emfk.com.emfklatest.Frags.SavedPosts;
 import main.emfk.com.emfklatest.Frags.PostsFrag;
 import main.emfk.com.emfklatest.Frags.VideosFrag;
@@ -70,15 +71,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     // tags used to attach the fragments
     private static final String TAG_POSTS = "posts";
-    private static final String TAG_ALGO = "algorithms";
-    private static final String TAG_VIDS = "videos";
-    private static final String TAG_EMS = "ems";
     private static final String TAG_SAVD = "saved_stuff";
     private static final String TAG_WEBSITE = "website";
-    private static final String TAG_ABOUT_US = "about_us";
     private static final String TAG_HOME_FRAG = "home";
 
-    public static String CURRENT_TAG = TAG_POSTS;
+    public static String CURRENT_TAG = TAG_HOME_FRAG;
 
     public static String FACEBOOK_URL = "https://www.facebook.com/emergencymedkenya/";
     public static String FACEBOOK_PAGE_ID = "emergencymedkenya";
@@ -98,11 +95,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private PopupWindow mPopupWindow;
     private FrameLayout frameLayout;
 
+    private AppCompatButton btnDonate;
     private static final int EXTERNAL_STORAGE_PERMISSION_CONSTANT = 100;
     private static final int REQUEST_PERMISSION_SETTING = 101;
     private boolean sentToSettings = false;
     private SharedPreferences permissionStatus;
-    private List<Algorithms> algoList = new ArrayList<>();
 
 
     @Override
@@ -132,6 +129,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         activityTitles = getResources().getStringArray(R.array.navtitles);
 
+
+
         searchView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
@@ -145,16 +144,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             public boolean onQueryTextSubmit(String query){
                 Log.d("SRCHTEXT","Post frag 1 " + navItemIndex);
                 switch (navItemIndex) {
-                    case 0:
+
+                    case 1:
                         PostsFrag.loadData(query);
                         break;
+
                     case 2:
-                        VideosFrag.loadData(query);
-                        break;
-                    case 3:
-                        EMSFrag.loadData(query);
-                        break;
-                    case 4:
                         SavedPosts.loadData(query);
                         break;
                     default:
@@ -168,18 +163,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             public boolean onQueryTextChange(String newText){
                 Log.d("SRCHTEXT2"," frag " + navItemIndex);
                 switch (navItemIndex) {
-                    case 0:
-
+                    case 1:
                         PostsFrag.loadData(newText);
                         break;
                     case 2:
-
-                        VideosFrag.loadData(newText);
-                        break;
-                    case 3:
-                        EMSFrag.loadData(newText);
-                        break;
-                    case 4:
                         SavedPosts.loadData(newText);
                         break;
                     default:
@@ -199,7 +186,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         if (savedInstanceState == null) {
             navItemIndex = 0;
-            CURRENT_TAG = TAG_POSTS;
+            CURRENT_TAG = TAG_HOME_FRAG;
             loadHomeFragment();
         }
 
@@ -282,25 +269,20 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         switch (navItemIndex) {
             case 0:
                 //This will be the home activity
+                HomeFrag homeFrag = new HomeFrag();
+                return homeFrag;
+            case 1:
                 PostsFrag postsfrag = new PostsFrag();
                 return postsfrag;
-            /*case 1:
-                AlgorithmsFrag algorithmsFrag = new AlgorithmsFrag();
-                return algorithmsFrag;*/
             case 2:
-                VideosFrag videosFrag = new VideosFrag();
-                return videosFrag;
-            case 3:
-                EMSFrag emsFrag = new EMSFrag();
-                return emsFrag;
-            case 4:
                 SavedPosts savedPosts = new SavedPosts();
                 return savedPosts;
             case 5:
+                //consider
                 WebFrag webFrag = new WebFrag();
                 return webFrag;
             default:
-                return new PostsFrag();
+                return new HomeFrag();
         }
     }
 
@@ -321,45 +303,44 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             public boolean onNavigationItemSelected(MenuItem menuItem) {
 
                 switch (menuItem.getItemId()) {
-
+                    //Home Frag
                     case R.id.nav_home:
                         navItemIndex = 0;
+                        CURRENT_TAG = TAG_HOME_FRAG;
+                        break;
+                        //View Posts
+                    case R.id.nav_view_posts:
+                        navItemIndex = 1;
                         CURRENT_TAG = TAG_POSTS;
-                        //startActivity(new Intent(MainActivity.this, NewHomeActivity.class));
                         break;
-                    case R.id.nav_algo:
-                        //navItemIndex = 1;
-                        CURRENT_TAG = TAG_ALGO;
-                        startActivity(new Intent(MainActivity.this, AlgorithmsActivity.class));
-                        drawer.closeDrawers();
-                        return true;
-                        //break;
-                    case R.id.nav_vids:
-                        navItemIndex = 2;
-                        CURRENT_TAG = TAG_VIDS;
-                        break;
-                    case R.id.nav_ems:
-                        navItemIndex = 3;
-                        CURRENT_TAG = TAG_EMS;
-                        break;
+                        //saved posts
                     case R.id.mydownloads:
-                        navItemIndex = 4;
+                        navItemIndex = 2;
                         CURRENT_TAG = TAG_SAVD;
                         break;
+
                     case R.id.nav_website_link:
-                        navItemIndex = 5;
+                        navItemIndex = 3;
                         CURRENT_TAG = TAG_WEBSITE;
-                        break;
-                    case R.id.nav_social_media:
-                        ShowSocialMediaDialogue();
+                        startActivity(new Intent(MainActivity.this, EMFWebsiteActivity.class));
+                        drawer.closeDrawers();
+                        return true;
+
+                    case R.id.nav_youtube_channel:
+                        startYoutube();
                         drawer.closeDrawers();
                         return true;
                     case R.id.nav_about_us:
+                        //about us
                         startActivity(new Intent(MainActivity.this, AboutEMFActivity.class));
                         drawer.closeDrawers();
                         return true;
                     case R.id.nav_contact_link:
-                        sendEmail();
+                        startActivity(new Intent(MainActivity.this, EMFContactActivity.class));
+                        drawer.closeDrawers();
+                        return true;
+                    case R.id.nav_donate:
+                        startActivity(new Intent(MainActivity.this, DonateWebActivity.class));
                         drawer.closeDrawers();
                         return true;
                     default:
@@ -409,18 +390,26 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             if (navItemIndex != 0) {
                 navItemIndex = 0;
-                CURRENT_TAG = TAG_POSTS;
+                CURRENT_TAG = TAG_HOME_FRAG;
                 loadHomeFragment();
                 return;
             }
         }
+
+        //implement dialogue dismiss if open in fragment
+
+        Fragment fragment = getSupportFragmentManager().findFragmentByTag(TAG_HOME_FRAG);
+        if (!(fragment instanceof HomeFrag) || !((HomeFrag) fragment).onBackPressed()) {
+            super.onBackPressed();
+        }
+
         super.onBackPressed();
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
-        if (navItemIndex == 0 || navItemIndex == 2 || navItemIndex == 3 || navItemIndex == 4) {
+        if (navItemIndex == 1|| navItemIndex == 2 || navItemIndex == 4) {
             getMenuInflater().inflate(R.menu.main, menu);
         }
         return true;
@@ -484,13 +473,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         // Get a reference for the custom view close button
         //ImageButton closeButton = (ImageButton) customView.findViewById(R.id.ib_close);
-        fbIconImg = (ImageView) customView.findViewById(R.id.fbIcon);
-        twIconImg = (ImageView) customView.findViewById(R.id.twIcon);
-        gpIconImg = (ImageView) customView.findViewById(R.id.gpIcon);
-        linkediniconImg = (ImageView) customView.findViewById(R.id.linkedinicon);
-        ytbiconImg = (ImageView) customView.findViewById(R.id.ytbicon);
-        btnWhatsapp = (ImageView) customView.findViewById(R.id.icWhatsapp);
-        btnInstagram = (ImageView) customView.findViewById(R.id.icinstagram);
+        fbIconImg = customView.findViewById(R.id.fbIcon);
+        twIconImg = customView.findViewById(R.id.twIcon);
+        gpIconImg = customView.findViewById(R.id.gpIcon);
+        linkediniconImg = customView.findViewById(R.id.linkedinicon);
+        ytbiconImg = customView.findViewById(R.id.ytbicon);
+        btnWhatsapp = customView.findViewById(R.id.icWhatsapp);
+        btnInstagram = customView.findViewById(R.id.icinstagram);
         //btnTelegram;
 
         //fb image click
@@ -812,7 +801,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 }
                 break;
         }
-        ;
+
         searchView.addSuggestions(arr);
     }
+
 }

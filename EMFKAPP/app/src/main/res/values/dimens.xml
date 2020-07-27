@@ -5,7 +5,6 @@
     <dimen name="listTextDescSize">11sp</dimen>
     <dimen name="listDateTimeSize">11sp</dimen>
 
-
     <!-- Screen Margins -->
     <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="nav_header_height">160dp</dimen>

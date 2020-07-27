@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: br.com.mauker.materialsearchview:materialsearchview:1.2.2@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5b7d63d533540a8769648acd61e7e7c8/jetified-materialsearchview-1.2.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5b7d63d533540a8769648acd61e7e7c8/jetified-materialsearchview-1.2.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/730ca344cb6beaa3ac64b091f867e896/jetified-materialsearchview-1.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/730ca344cb6beaa3ac64b091f867e896/jetified-materialsearchview-1.2.2/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/br.com.mauker.materialsearchview/materialsearchview/1.2.2/e68b84dfb53bf1d0fac509f514ad1f2bcb40dd3d/materialsearchview-1.2.2-javadoc.jar!/" />

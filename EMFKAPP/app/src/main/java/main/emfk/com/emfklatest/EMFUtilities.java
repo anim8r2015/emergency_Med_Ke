@@ -424,6 +424,7 @@ public class EMFUtilities {
             }
         }
         catch (IOException ex) {
+            ex.printStackTrace();
             throw new RuntimeException("Error in reading CSV file: "+ex);
         }
         finally {
@@ -431,38 +432,14 @@ public class EMFUtilities {
                 inputStream.close();
             }
             catch (IOException e) {
+                e.printStackTrace();
                 throw new RuntimeException("Error while closing input stream: "+e);
             }
         }
         return resultList;
     }
 
-    public InputStream getFileStream(String file){
 
-        InputStream inputStream = null;
-
-        if(new File(file).exists()){
-            try {
-                inputStream = ctx.getAssets().open(file);
-                BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
-                String csvLine;
-            }
-            catch (IOException ex) {
-                throw new RuntimeException("Error in reading CSV file: "+ex);
-            }
-            finally {
-                try {
-                    inputStream.close();
-                }
-                catch (IOException e) {
-                    throw new RuntimeException("Error while closing input stream: "+e);
-                }
-            }
-        } else {
-            Log.d("FEXIST","File does not exist!!");
-        }
-        return inputStream;
-    }
     public static boolean validateString(String str){
         //String s = null;
         if(str != null){

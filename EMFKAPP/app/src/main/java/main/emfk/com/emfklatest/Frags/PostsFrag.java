@@ -51,7 +51,7 @@ import main.emfk.com.emfklatest.R;
  * Use the {@link PostsFrag#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class PostsFrag extends Fragment implements SwipeRefreshLayout.OnRefreshListener {
+public class PostsFrag extends Fragment implements SwipeRefreshLayout.OnRefreshListener, IOnBackPressed {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -77,9 +77,6 @@ public class PostsFrag extends Fragment implements SwipeRefreshLayout.OnRefreshL
     private List<Posts> postsList = new ArrayList<>();
     private static RecyclerView recyclerView;
     private static PostsAdapter pAdapter;
-    private ImageView savedPosts;
-
-    DownloadReceiver receiver;
 
     JSONArray posts = null;
     Posts[] ps;
@@ -220,7 +217,7 @@ public class PostsFrag extends Fragment implements SwipeRefreshLayout.OnRefreshL
             @Override
             protected String doInBackground(String... params) {
                 DefaultHttpClient httpclient = new DefaultHttpClient(new BasicHttpParams());
-                HttpGet httppost = new HttpGet("http://www.emergencymedicinekenya.org/?json=get_recent_posts&count=20");
+                HttpGet httppost = new HttpGet("https://www.emergencymedicinekenya.org/?json=get_recent_posts&count=20");
                 httppost.setHeader("Content-type", "application/json");
 
                 InputStream inputStream = null;
@@ -388,5 +385,18 @@ public class PostsFrag extends Fragment implements SwipeRefreshLayout.OnRefreshL
     public void onRefresh() {
         swipeRefreshLayout.setRefreshing(true);
         fetchData();
+    }
+
+    @Override
+    public boolean onBackPressed() {
+        /*if (mPopupWindow.isShowing()) {
+            //action not popBackStack
+            mPopupWindow.dismiss();
+            return true;
+        } else {
+           return false;
+        }*/
+        return true;
+
     }
 }

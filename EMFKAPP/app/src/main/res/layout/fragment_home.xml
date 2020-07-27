@@ -2,155 +2,235 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="main.emfk.com.emfklatest.Frags.PostsFrag">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="main.emfk.com.emfklatest.Frags.HomeFrag">
 
     <androidx.core.widget.NestedScrollView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
             android:orientation="vertical">
             <!--ambulance icon-->
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnAmbulance"
                 android:orientation="horizontal">
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="wrap_content"
+                    android:src="@drawable/ic_ambulance"
                     android:layout_height="wrap_content" />
 
                 <TextView
                     android:layout_width="wrap_content"
+                    android:text="@string/call_ambulance"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content" />
             </LinearLayout>
 
             <!--locate nearest emed-->
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnNearestMed"
                 android:orientation="horizontal">
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_maps"/>
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/locate_emed"/>
             </LinearLayout>
 
             <!--first aid and health-->
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:id="@+id/btnFirstAidHealth"
                 android:orientation="horizontal">
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_first_aid"/>
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/first_health"/>
             </LinearLayout>
             <!-- For healthcare pros-->
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="35dp"
+                android:text="@string/for_pros"/>
 
             <!--emed algorithms-->
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:id="@+id/btnAlgorithms"
                 android:orientation="horizontal">
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_algos"/>
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/emed_algos"/>
             </LinearLayout>
 
             <!--emed online updates-->
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:id="@+id/btnEmedOnlineUpdates"
                 android:orientation="horizontal">
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_emed_online"/>
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/latest_emed_updates"/>
             </LinearLayout>
 
             <!--social media icons-->
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:paddingRight="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
                 android:orientation="horizontal">
                 <!--fb-->
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnFaceBook"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/ic_facebook"/>
 
                 <!--whatsapp-->
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnWhatsapp"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/ic_whatsapp"/>
 
                 <!--twitter-->
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnTwitter"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/ic_twitter"/>
 
-                <!--youtube-->
+                <!--youtube
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnYoutube"
+                    android:src="@drawable/ic_youtube_png"/>-->
 
                 <!--linkedin-->
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnLinkedIn"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/ic_linkedin"/>
 
                 <!--telegram-->
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnTelegram"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/ic_telegram"/>
 
                 <!--instagram-->
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
-                <!--gmail-->
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-                <!--pinterest-->
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnInstagram"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/ic_instagram"/>
 
             </LinearLayout>
             <!--about EMFK-->
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/about_emed"/>
 
+            <!--Donate button-->
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/donate"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/white"
+                android:id="@+id/btnDonate"
+                android:layout_gravity="center"
+                android:background="@drawable/buttonbg"/>
+
+            <FrameLayout
+                android:id="@+id/callFrame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"></FrameLayout>
         </LinearLayout>
 
-        <!--Donate button-->
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
     </androidx.core.widget.NestedScrollView>
 </FrameLayout>
