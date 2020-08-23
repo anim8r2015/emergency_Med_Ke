@@ -1076,6 +1076,7 @@ drawable emf_screen_home
 drawable emfk
 drawable emfk_logo_big
 drawable emfk_logo_new
+drawable emfk_logo_new1
 drawable ems
 drawable ems_btn
 drawable enlarged_emf
@@ -1218,6 +1219,7 @@ id btnEms
 id btnFaceBook
 id btnFirstAidHealth
 id btnInstagram
+id btnLayout
 id btnLinkedIn
 id btnNearestMed
 id btnPosts
@@ -1245,6 +1247,7 @@ id container
 id content
 id contentPanel
 id coordinator
+id covidAlgorithms
 id custom
 id customPanel
 id decor_content_parent
@@ -1365,6 +1368,7 @@ id rl_content
 id rl_custom_layout
 id rssicon
 id ruralsetting
+id ruralsettingbtn
 id rvAlgosList
 id rvLayout
 id rvPostList
@@ -1419,6 +1423,7 @@ id submit_area
 id suggestion_list
 id svImages
 id swipe_refresh_layout
+id swipe_refresh_layout_emed
 id swipe_refresh_layout_ems
 id tabMode
 id tag_transition_group
@@ -1515,6 +1520,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_algos_listed
+layout activity_algos_listed_covid
 layout activity_algos_listed_rural
 layout activity_contact_us
 layout activity_ems_posts
@@ -1552,6 +1558,7 @@ layout fragment_home
 layout fragment_my_downloads
 layout fragment_posts
 layout fragment_videos
+layout full_web_emed_layout
 layout full_web_layout
 layout home_activity_layout
 layout home_list_item

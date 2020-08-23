@@ -6,178 +6,181 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="14"
-8-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml
+8-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml
+9-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml
 10
 11    <!-- Internet Permission -->
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:6:5-66
-12-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:6:22-64
+12-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:6:5-66
+12-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:6:22-64
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:7:5-78
-13-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:7:22-76
+13-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:7:5-78
+13-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:7:22-76
 14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-14-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:8:5-75
-14-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:8:22-73
+14-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:8:5-75
+14-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:8:22-73
 15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-15-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:9:5-80
-15-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:9:22-78
+15-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:9:5-80
+15-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:9:22-78
 16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-16-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:10:5-79
-16-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:10:22-77
+16-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:10:5-79
+16-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:10:22-77
 17
 18    <application
-18-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:12:5-72:19
+18-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:12:5-73:19
 19        android:name="androidx.multidex.MultiDexApplication"
 20        android:allowBackup="true"
-20-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:13:9-35
+20-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:13:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.0.0] C:\Users\aanyama\.gradle\caches\transforms-2\files-2.1\f88df7c86cbc989e82020e686162bad6\core-1.0.0\AndroidManifest.xml:22:18-86
+21-->[androidx.core:core:1.0.0] C:\Users\aanyama\.gradle\caches\transforms-2\files-2.1\6d11613c3b6a00a9ea456b5609ec43f7\core-1.0.0\AndroidManifest.xml:22:18-86
 22        android:debuggable="true"
 23        android:icon="@drawable/emf_logo"
-23-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:14:9-42
+23-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:14:9-42
 24        android:label="@string/app_name"
-24-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:15:9-41
+24-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:15:9-41
 25        android:networkSecurityConfig="@xml/network_security_config"
-25-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:17:9-69
+25-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:17:9-69
 26        android:supportsRtl="true"
-26-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:16:9-35
+26-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:16:9-35
 27        android:theme="@style/AppTheme" >
-27-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:18:9-40
+27-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:18:9-40
 28        <uses-library
-28-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:19:9-88
+28-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:19:9-88
 29            android:name="org.apache.http.legacy"
-29-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:19:23-60
+29-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:19:23-60
 30            android:required="false" />
-30-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:19:61-85
+30-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:19:61-85
 31
 32        <activity
-32-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:20:9-23:58
+32-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:20:9-23:58
 33            android:name="main.emfk.com.emfklatest.SearchActivity"
-33-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:21:13-43
+33-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:21:13-43
 34            android:icon="@drawable/emf_logo"
-34-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:22:13-46
+34-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:22:13-46
 35            android:theme="@style/AppTheme.NoActionBar" />
-35-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:23:13-56
+35-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:23:13-56
 36        <activity
-36-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:24:9-25:66
+36-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:24:9-25:66
 37            android:name="main.emfk.com.emfklatest.Activity.AboutEMFActivity"
-37-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:24:19-60
+37-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:24:19-60
 38            android:parentActivityName="main.emfk.com.emfklatest.Activity.MainActivity" />
-38-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:25:13-64
+38-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:25:13-64
 39        <activity
-39-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:26:9-27:49
+39-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:26:9-27:49
 40            android:name="main.emfk.com.emfklatest.AlgorithmsRuralActivity"
-40-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:26:19-58
+40-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:26:19-58
 41            android:label="Rural Setting Algo" />
-41-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:27:13-47
+41-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:27:13-47
 42        <activity
-42-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:28:9-30:46
+42-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:28:9-30:46
 43            android:name="main.emfk.com.emfklatest.Activity.MainActivity"
-43-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:29:13-50
+43-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:29:13-50
 44            android:theme="@style/AppTheme" />
-44-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:30:13-44
+44-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:30:13-44
 45        <activity
-45-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:31:9-38:20
+45-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:31:9-38:20
 46            android:name="main.emfk.com.emfklatest.SplashActivity"
-46-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:32:13-43
+46-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:32:13-43
 47            android:theme="@style/SplashTheme" >
-47-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:33:13-47
+47-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:33:13-47
 48            <intent-filter>
-48-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:34:13-37:29
+48-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:34:13-37:29
 49                <action android:name="android.intent.action.MAIN" />
-49-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:35:17-69
-49-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:35:25-66
+49-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:35:17-69
+49-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:35:25-66
 50
 51                <category android:name="android.intent.category.LAUNCHER" />
-51-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:36:17-77
-51-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:36:27-74
+51-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:36:17-77
+51-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:36:27-74
 52            </intent-filter>
 53        </activity>
 54        <activity android:name="main.emfk.com.emfklatest.EMSPostsActivity" />
-54-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:40:9-53
-54-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:40:19-51
+54-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:40:9-53
+54-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:40:19-51
 55        <activity android:name="main.emfk.com.emfklatest.AlgosActivity" />
-55-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:41:9-50
-55-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:41:19-48
+55-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:41:9-50
+55-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:41:19-48
 56        <activity android:name="main.emfk.com.emfklatest.ActivityPostDetail" />
-56-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:42:9-55
-56-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:42:19-53
+56-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:42:9-55
+56-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:42:19-53
 57        <activity android:name="main.emfk.com.emfklatest.ReadMoreActivity" />
-57-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:43:9-53
-57-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:43:19-51
+57-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:43:9-53
+57-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:43:19-51
 58        <activity android:name="main.emfk.com.emfklatest.PostImageActivity" />
-58-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:44:9-54
-58-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:44:19-52
+58-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:44:9-54
+58-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:44:19-52
 59        <activity android:name="main.emfk.com.emfklatest.ContactUsActivity" />
-59-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:45:9-55
-59-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:45:19-52
+59-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:45:9-55
+59-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:45:19-52
 60        <activity android:name="main.emfk.com.emfklatest.SavedPostsActivity" />
-60-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:46:9-56
-60-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:46:19-53
+60-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:46:9-56
+60-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:46:19-53
 61        <activity android:name="main.emfk.com.emfklatest.AlgorithmsActivity" />
-61-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:47:9-56
-61-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:47:19-53
+61-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:47:9-56
+61-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:47:19-53
 62        <activity android:name="main.emfk.com.emfklatest.PDFViewActivity" />
-62-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:48:9-53
-62-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:48:19-50
+62-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:48:9-53
+62-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:48:19-50
 63        <activity android:name="main.emfk.com.emfklatest.EMFWebsiteActivity" />
-63-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:49:9-56
-63-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:49:19-53
+63-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:49:9-56
+63-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:49:19-53
 64        <activity android:name="main.emfk.com.emfklatest.VideoPostsActivity" />
-64-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:50:9-56
-64-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:50:19-53
+64-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:50:9-56
+64-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:50:19-53
 65        <activity android:name="main.emfk.com.emfklatest.HomeActivity" />
-65-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:51:9-50
-65-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:51:19-47
+65-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:51:9-50
+65-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:51:19-47
 66        <activity android:name="main.emfk.com.emfklatest.Activity.NewHomeActivity" />
-66-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:52:9-62
-66-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:52:19-59
+66-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:52:9-62
+66-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:52:19-59
 67        <activity android:name="main.emfk.com.emfklatest.AllPostsActivity" />
-67-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:53:9-54
-67-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:53:19-51
+67-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:53:9-54
+67-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:53:19-51
 68        <activity android:name="main.emfk.com.emfklatest.EMLocationMapActivity" />
-68-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:54:9-59
-68-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:54:19-56
+68-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:54:9-59
+68-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:54:19-56
 69        <activity android:name="main.emfk.com.emfklatest.DonateWebActivity" />
-69-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:55:9-55
-69-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:55:19-52
+69-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:55:9-55
+69-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:55:19-52
 70        <activity android:name="main.emfk.com.emfklatest.EmedOnlineUpdates" />
-70-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:56:9-55
-70-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:56:19-52
+70-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:56:9-55
+70-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:56:19-52
 71        <activity android:name="main.emfk.com.emfklatest.EMFContactActivity" />
-71-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:57:9-56
-71-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:57:19-53
-72
-73        <service
-73-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:58:9-60:39
-74            android:name="main.emfk.com.emfklatest.DownloadsService"
-74-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:59:13-45
-75            android:exported="false" />
-75-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:60:13-37
-76
-77        <receiver
-77-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:61:9-64:38
-78            android:name="main.emfk.com.emfklatest.DownloadReceiver"
-78-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:62:13-45
-79            android:enabled="true"
-79-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:63:13-35
-80            android:exported="true" />
-80-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:64:13-36
-81
-82        <provider
-82-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:65:9-70:38
-83            android:name="br.com.mauker.materialsearchview.db.HistoryProvider"
-83-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:66:13-79
-84            android:authorities="main.emfk.com.emfklatest.searchhistorydatabase"
-84-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:67:13-81
-85            android:exported="false"
-85-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:68:13-37
-86            android:protectionLevel="signature"
-86-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:69:13-48
-87            android:syncable="true" />
-87-->B:\Project\EMFKAPP\EMFKAPP\EMFKAPP\app\src\main\AndroidManifest.xml:70:13-36
-88    </application>
-89
-90</manifest>
+71-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:57:9-56
+71-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:57:19-53
+72        <activity android:name="main.emfk.com.emfklatest.CovidAlgorithmsActivity" />
+72-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:58:9-61
+72-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:58:19-58
+73
+74        <service
+74-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:59:9-61:39
+75            android:name="main.emfk.com.emfklatest.DownloadsService"
+75-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:60:13-45
+76            android:exported="false" />
+76-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:61:13-37
+77
+78        <receiver
+78-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:62:9-65:38
+79            android:name="main.emfk.com.emfklatest.DownloadReceiver"
+79-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:63:13-45
+80            android:enabled="true"
+80-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:64:13-35
+81            android:exported="true" />
+81-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:65:13-36
+82
+83        <provider
+83-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:66:9-71:38
+84            android:name="br.com.mauker.materialsearchview.db.HistoryProvider"
+84-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:67:13-79
+85            android:authorities="main.emfk.com.emfklatest.searchhistorydatabase"
+85-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:68:13-81
+86            android:exported="false"
+86-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:69:13-37
+87            android:protectionLevel="signature"
+87-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:70:13-48
+88            android:syncable="true" />
+88-->D:\Project\Latest\emergency_Med_Ke\EMFKAPP\app\src\main\AndroidManifest.xml:71:13-36
+89    </application>
+90
+91</manifest>

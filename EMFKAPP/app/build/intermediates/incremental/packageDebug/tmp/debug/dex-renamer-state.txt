@@ -1,7 +1,7 @@
-#Mon Jul 27 13:29:36 EAT 2020
-base.0=B\:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Wed Aug 19 13:37:36 EAT 2020
+base.0=D\:\\Project\\Latest\\emergency_Med_Ke\\EMFKAPP\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.1=classes2.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=B\:\\Project\\EMFKAPP\\EMFKAPP\\EMFKAPP\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
+base.1=D\:\\Project\\Latest\\emergency_Med_Ke\\EMFKAPP\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
