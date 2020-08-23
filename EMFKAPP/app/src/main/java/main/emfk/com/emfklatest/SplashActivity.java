@@ -97,7 +97,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             protected String doInBackground(String... params) {
                 DefaultHttpClient httpclient = new DefaultHttpClient(new BasicHttpParams());
-                String q = "https://www.emergencymedicinekenya.org/?json=get_recent_posts&count=200"; //+ POST_LIMIT;
+                String q = "https://www.emergencymedicinekenya.org/?json=get_recent_posts&count="+ POST_LIMIT;
                 Log.d("QRY","The query " + q);
                 HttpGet httppost = new HttpGet(q);
                 httppost.setHeader("Content-type", "application/json");
@@ -212,7 +212,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             protected String doInBackground(String... params) {
                 DefaultHttpClient httpclient = new DefaultHttpClient(new BasicHttpParams());
-                HttpGet httppost = new HttpGet("http://www.emergencymedicinekenya.org/?json=get_category_posts&slug=ems&count=50");//+POST_LIMIT);
+                HttpGet httppost = new HttpGet("http://www.emergencymedicinekenya.org/?json=get_category_posts&slug=firstaid&count="+POST_LIMIT);
                 httppost.setHeader("Content-type", "application/json");
 
                 InputStream inputStream = null;
@@ -319,7 +319,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             protected String doInBackground(String... params) {
                 DefaultHttpClient httpclient = new DefaultHttpClient(new BasicHttpParams());
-                HttpGet httppost = new HttpGet("http://www.emergencymedicinekenya.org/?json=get_category_posts&slug=videos&count=50");//+POST_LIMIT);
+                HttpGet httppost = new HttpGet("http://www.emergencymedicinekenya.org/?json=get_category_posts&slug=videos&count=0");//+POST_LIMIT);
                 httppost.setHeader("Content-type", "application/json");
 
                 InputStream inputStream = null;

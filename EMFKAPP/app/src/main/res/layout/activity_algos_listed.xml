@@ -13,18 +13,59 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
-    <ImageView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:src="@drawable/rural_setting"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/toolbar"
-        android:id="@+id/ruralsetting"/>
+        android:gravity="center"
+        android:id="@+id/btnLayout"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal">
+
+        <!--<ImageView
+            android:id="@+id/ruralsetting"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="left"
+            android:/>-->
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:text="Rural Setting"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="40dp"
+            android:id="@+id/ruralsettingbtn"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:background="@drawable/buttonbg"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/covidAlgorithms"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="40dp"
+            android:paddingLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/buttonbg"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            android:text="COVID 19" />
+
+    </LinearLayout>
 
     <RelativeLayout
         android:id="@+id/rl_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/ruralsetting">
+        android:layout_below="@+id/btnLayout">
 
         <ScrollView
             android:layout_width="match_parent"

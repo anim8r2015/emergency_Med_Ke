@@ -215,7 +215,7 @@ public class EMSFrag extends Fragment implements SwipeRefreshLayout.OnRefreshLis
             @Override
             protected String doInBackground(String... params) {
                 DefaultHttpClient httpclient = new DefaultHttpClient(new BasicHttpParams());
-                HttpGet httppost = new HttpGet("http://www.emergencymedicinekenya.org/?json=get_category_posts&slug=ems&count=20");
+                HttpGet httppost = new HttpGet("http://www.emergencymedicinekenya.org/?json=get_category_posts&slug=firstaid&count=-1");
                 httppost.setHeader("Content-type", "application/json");
 
                 InputStream inputStream = null;
@@ -391,7 +391,6 @@ public class EMSFrag extends Fragment implements SwipeRefreshLayout.OnRefreshLis
     @Override
     public void onRefresh() {
         swipeRefreshLayout.setRefreshing(true);
-
         fetchData();
     }
 

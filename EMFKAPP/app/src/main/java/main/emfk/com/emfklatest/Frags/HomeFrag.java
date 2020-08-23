@@ -150,13 +150,13 @@ public class HomeFrag extends Fragment implements IOnBackPressed {
         btnFirstAidHealth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                PostsFrag postsfrag = new PostsFrag();
+                EMSFrag emsfrag = new EMSFrag();
                 FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
                 fragmentTransaction.setCustomAnimations(android.R.anim.fade_in,
                         android.R.anim.fade_out);
-                fragmentTransaction.replace(R.id.frame, postsfrag, "posts");
+                fragmentTransaction.replace(R.id.frame, emsfrag, "firstaid");
                 fragmentTransaction.commitAllowingStateLoss();
-                ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Posts");
+                ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("First Aid & Health");
 
                 //Toast.makeText(context, "Cicked the posts fragment!!", Toast.LENGTH_SHORT).show();
             }

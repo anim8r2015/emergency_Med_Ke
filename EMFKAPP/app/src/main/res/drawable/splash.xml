@@ -6,7 +6,7 @@
     <item>
         <bitmap
             android:gravity="center_horizontal"
-            android:src="@drawable/emfk_logo_new"/>
+            android:src="@drawable/emfk_logo_new1"/>
     </item>
 
 

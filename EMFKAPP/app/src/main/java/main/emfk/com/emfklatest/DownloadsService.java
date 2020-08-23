@@ -47,7 +47,7 @@ public class DownloadsService extends IntentService {
     JSONArray posts = null;
     Posts[] ps;
     private String myJSON = null;
-    private int POST_LIMIT = 150;
+    private int POST_LIMIT = -1;
 
     public DownloadsService(){
         super("DownloadsService");
@@ -222,7 +222,7 @@ public class DownloadsService extends IntentService {
             @Override
             protected String doInBackground(String... params) {
                 DefaultHttpClient httpclient = new DefaultHttpClient(new BasicHttpParams());
-                HttpGet httppost = new HttpGet("http://www.emergencymedicinekenya.org/?json=get_category_posts&slug=ems&count=-1");//+POST_LIMIT);
+                HttpGet httppost = new HttpGet("http://www.emergencymedicinekenya.org/?json=get_category_posts&slug=firstaid&count="+POST_LIMIT);
                 httppost.setHeader("Content-type", "application/json");
 
                 InputStream inputStream = null;
@@ -328,7 +328,7 @@ public class DownloadsService extends IntentService {
             @Override
             protected String doInBackground(String... params) {
                 DefaultHttpClient httpclient = new DefaultHttpClient(new BasicHttpParams());
-                HttpGet httppost = new HttpGet("http://www.emergencymedicinekenya.org/?json=get_category_posts&slug=videos&count=-1");//+POST_LIMIT);
+                HttpGet httppost = new HttpGet("http://www.emergencymedicinekenya.org/?json=get_category_posts&slug=videos&count=0"+POST_LIMIT);
                 httppost.setHeader("Content-type", "application/json");
 
                 InputStream inputStream = null;

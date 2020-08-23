@@ -55,6 +55,7 @@
         <activity android:name=".DonateWebActivity" />
         <activity android:name=".EmedOnlineUpdates" />
         <activity android:name=".EMFContactActivity" />
+        <activity android:name=".CovidAlgorithmsActivity" />
         <service
             android:name=".DownloadsService"
             android:exported="false"/>

@@ -8,17 +8,20 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 /**
  * Created by user on 7/10/2016.
  */
-public class EmedOnlineUpdates extends AppCompatActivity {
+public class EmedOnlineUpdates extends AppCompatActivity implements SwipeRefreshLayout.OnRefreshListener {
     private WebView webView;
+    private SwipeRefreshLayout swipe_refresh_layout_emed;
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.full_web_layout);
+        setContentView(R.layout.full_web_emed_layout);
         String s = getResources().getString(R.string.emed_online_url);
         webView = (WebView) findViewById(R.id.webView1);
+        swipe_refresh_layout_emed = findViewById(R.id.swipe_refresh_layout_emed);
         startWebView(s);
     }
 
@@ -41,6 +44,9 @@ public class EmedOnlineUpdates extends AppCompatActivity {
                     //progressDialog.setMessage("Loading...");
                     //progressDialog.show();
                 }*/
+                if(swipe_refresh_layout_emed.isRefreshing()) {
+                    swipe_refresh_layout_emed.setRefreshing(false);
+                }
             }
             public void onPageFinished(WebView view, String url) {
                 try{
@@ -48,6 +54,9 @@ public class EmedOnlineUpdates extends AppCompatActivity {
                         //progressDialog.dismiss();
                        // progressDialog = null;
                     }*/
+                    if(swipe_refresh_layout_emed.isRefreshing()) {
+                        swipe_refresh_layout_emed.setRefreshing(false);
+                    }
                 }catch(Exception exception){
                     exception.printStackTrace();
                 }
@@ -59,12 +68,15 @@ public class EmedOnlineUpdates extends AppCompatActivity {
         webView.getSettings().setAllowFileAccess( true );
         webView.getSettings().setAppCacheEnabled( true );
 
-        webView.getSettings().setCacheMode( WebSettings.LOAD_CACHE_ELSE_NETWORK );
+
 
         if ( !new EMFUtilities(getApplicationContext()).isNetworkAvailable() ) { // loading offline
             webView.getSettings().setCacheMode( WebSettings.LOAD_CACHE_ELSE_NETWORK );
+        } else {
+            webView.getSettings().setCacheMode( WebSettings.LOAD_DEFAULT );
         }
         webView.loadUrl(url);
+
 
     }
     // Open previous opened link from history on webview when back button pressed
@@ -77,5 +89,20 @@ public class EmedOnlineUpdates extends AppCompatActivity {
             // Let the system handle the back button
             super.onBackPressed();
         }
+    }
+
+    @Override
+    public void onRefresh() {
+        swipe_refresh_layout_emed.setRefreshing(true);
+        webView.reload();
+        /*Runnable thread = new Runnable(){
+            @Override
+            public void run() {
+
+            }
+        };*/
+
+
+
     }
 }

@@ -274,6 +274,35 @@ public class PostsDBAdapter {
         return mCursor;
     }
 
+    public Cursor getAllPostsByCategory(String category) throws SQLException {
+        Cursor mCursor = null;
+        try {
+            String query = "SELECT docid as _id," +
+                    KEY_POSTID + "," +
+                    KEY_TITLE + "," +
+                    KEY_TAG + "," +
+                    KEY_LINK_URL + "," +
+                    KEY_SLUG + "," +
+                    KEY_CONTENT + "," +
+                    KEY_CONTENT_SANITIZED + "," +
+                    KEY_POST_DATE + "," +
+                    KEY_SEARCH + "," +
+                    KEY_SAVED + "," +
+                    KEY_READ_URL + "," +
+                    KEY_IMG_URL_WEB +
+                    " from " + FTS_VIRTUAL_TABLE + " order by " + KEY_POST_DATE + " desc";
+            Log.w(TAG, query);
+            mCursor = mDb.rawQuery(query, null);
+        } catch (SQLiteException e){
+            addColumn();
+
+        } catch (Exception e){
+            addColumn();
+        }
+
+        return mCursor;
+    }
+
     public Cursor searchPost(String inputText) throws SQLException {
         Log.w(TAG, inputText);
         String query = "SELECT " +

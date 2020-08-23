@@ -45,6 +45,7 @@ import java.util.List;
 import br.com.mauker.materialsearchview.MaterialSearchView;
 import br.com.mauker.materialsearchview.db.HistoryContract;
 import main.emfk.com.emfklatest.DonateWebActivity;
+import main.emfk.com.emfklatest.DownloadsService;
 import main.emfk.com.emfklatest.EMFContactActivity;
 import main.emfk.com.emfklatest.EMFWebsiteActivity;
 import main.emfk.com.emfklatest.Frags.EMSFrag;
@@ -129,8 +130,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         activityTitles = getResources().getStringArray(R.array.navtitles);
 
-
-
         searchView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
@@ -196,6 +195,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 onMyDownloads();
             }
         });
+
+        startService(new Intent(this, DownloadsService.class));
     }
 
     private void onMyDownloads() {
@@ -372,7 +373,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 super.onDrawerOpened(drawerView);
             }
         };
-        drawer.setDrawerListener(actionBarDrawerToggle);
+        drawer.addDrawerListener(actionBarDrawerToggle);
         actionBarDrawerToggle.syncState();
     }
 
