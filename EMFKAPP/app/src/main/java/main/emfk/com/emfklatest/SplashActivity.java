@@ -37,7 +37,7 @@ public class SplashActivity extends AppCompatActivity {
     JSONArray posts = null;
     Posts[] ps;
     private String myJSON = null;
-    private int POST_LIMIT = 150;
+    private int POST_LIMIT = 50;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

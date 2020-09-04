@@ -107,7 +107,7 @@ public class HomeFrag extends Fragment implements IOnBackPressed {
         //Layout buttons
         btnAmbulance = view.findViewById(R.id.btnAmbulance);
         btnNearestMed = view.findViewById(R.id.btnNearestMed);
-        btnFirstAidHealth = view.findViewById(R.id.btnFirstAidHealth);
+//        btnFirstAidHealth = view.findViewById(R.id.btnFirstAidHealth);
         btnAlgorithms = view.findViewById(R.id.btnAlgorithms);
         btnEmedOnlineUpdates = view.findViewById(R.id.btnEmedOnlineUpdates);
 
@@ -147,7 +147,7 @@ public class HomeFrag extends Fragment implements IOnBackPressed {
             }
         });
 
-        btnFirstAidHealth.setOnClickListener(new View.OnClickListener() {
+/*        btnFirstAidHealth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 EMSFrag emsfrag = new EMSFrag();
@@ -160,7 +160,7 @@ public class HomeFrag extends Fragment implements IOnBackPressed {
 
                 //Toast.makeText(context, "Cicked the posts fragment!!", Toast.LENGTH_SHORT).show();
             }
-        });
+        }); */
 
         btnAlgorithms.setOnClickListener(new View.OnClickListener() {
             @Override

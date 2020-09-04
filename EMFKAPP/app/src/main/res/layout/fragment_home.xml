@@ -7,7 +7,7 @@
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -62,7 +62,7 @@
             </LinearLayout>
 
             <!--first aid and health-->
-            <LinearLayout
+           <!-- <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
@@ -82,7 +82,7 @@
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
                     android:layout_gravity="center_vertical"
                     android:text="@string/first_health"/>
-            </LinearLayout>
+            </LinearLayout>-->
             <!-- For healthcare pros-->
             <TextView
                 android:layout_width="wrap_content"
@@ -220,7 +220,7 @@
                 android:layout_width="254dp"
                 android:layout_height="36dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="90dp"
                 android:background="@drawable/buttonbg"
                 android:text="@string/donate"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"

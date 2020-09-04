@@ -72,7 +72,7 @@ td { padding: 5px; } </style>
 
     <!-- Toolbar titles when navigation menu item is selected -->
     <string-array name="navtitles">
-        <item>Home</item>
+        <item>Casualty</item>
         <item>Posts</item>
         <item>Saved Posts</item>
         <item>Website</item>
